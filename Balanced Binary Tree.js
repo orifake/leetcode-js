@@ -1,18 +1,19 @@
 /**
+ *  Time: O(n)
+ *  Space: O(1)
+ */
+
+/**
  * Definition for a binary tree node.
  * function TreeNode(val) {
  *     this.val = val;
  *     this.left = this.right = null;
  * }
  */
+
 /**
  * @param {TreeNode} root
  * @return {boolean}
- */
-
-/**
- *  Time: O(n)
- *  Space: O(1)
  */
 const isBalanced = function (root) {
   if (!root) return ture;
