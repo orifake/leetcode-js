@@ -1,4 +1,9 @@
 /**
+ *  Time: O(n)
+ *  Space: O(1)
+ */
+
+/**
  * Definition for singly-linked list.
  * function ListNode(val) {
  *     this.val = val;
@@ -9,18 +14,14 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-var reverseList = function(head) {
-	var array = [];
-	while (head) {
-		array.push(new ListNode(head.val));
-		head = head.next;
+const reverseList = function (head) {
+	let prev = null
+	let curr = head
+	while (curr) {
+		let next = curr.next
+		curr.next = prev
+		prev = curr
+		curr = next
 	}
-	array.reverse();
-	if (!array.length) {
-		return null;
-	}
-	for (var i = 0; i < array.length - 1; i++) {
-		array[i].next = array[i + 1];
-	}
-	return array[0];
+	return prev
 };
