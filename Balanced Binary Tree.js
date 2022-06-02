@@ -28,3 +28,21 @@ const depth = (node) => {
   if (!node) return 0;
   return Math.max(depth(node.left), depth(node.right)) + 1
 }
+
+const isBalanced2 = function (root) {
+  let result = true;
+  const check = function (root) {
+    if (!root) return;
+
+    let a = root.left ? check(root.left) : 0;
+    let b = root.right ? check(root.right) : 0;
+
+    if (Math.abs(a - b) > 1) {
+      result = false;
+    }
+
+    return Math.max(a, b) + 1;
+  };
+  check(root);
+  return result;
+};

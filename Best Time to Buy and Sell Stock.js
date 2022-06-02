@@ -1,18 +1,23 @@
 /**
+ *  Time: O(n)
+ *  Space: O(1)
+ */
+
+/**
  * @param {number[]} prices
  * @return {number}
  */
-var maxProfit = function(prices) {
+const maxProfit = function (prices) {
 	if (prices === null || prices.length === 0) {
 		return 0;
 	}
 
-	var max = 0,
-		diff = 0,
-		min = Infinity;
+	let max = 0;
+	let diff = 0;
+	let min = Infinity;
 
-	for (var i = 0; i < prices.length; i++) {
-		var price = prices[i];
+	for (let i = 0; i < prices.length; i++) {
+		let price = prices[i];
 		if (min > price) {
 			min = price;
 		}
@@ -25,5 +30,4 @@ var maxProfit = function(prices) {
 	}
 
 	return max;
-
 };
