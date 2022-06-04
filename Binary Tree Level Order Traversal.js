@@ -1,4 +1,9 @@
 /**
+ *  Time: O(n)
+ *  Space: O(n)
+ */
+
+/**
  * Definition for a binary tree node.
  * function TreeNode(val) {
  *     this.val = val;
@@ -9,27 +14,23 @@
  * @param {TreeNode} root
  * @return {number[][]}
  */
-var levelOrder = function(root) {
+const levelOrder = function (root) {
 	if (!root) return [];
-	var result = [],
-		temp = [root];
-
-	while (temp.length) {
-		var res = [],
-			a = [];
-
-		for (var i = 0, len = temp.length; i < len; i++) {
-			if (!temp[i]) continue;
-			res.push(temp[i].val);
-			a.push(temp[i].left);
-			a.push(temp[i].right);
+	let queue = [root];
+	let temp = [];
+	let result = [];
+	let level_node = [];
+	while (queue.length) {
+		const elem = queue.shift();
+		elem.left && temp.push(elem.left);
+		elem.right && temp.push(elem.right);
+		level_node.push(elem.val);
+		if (queue.length === 0) {
+			result.push(level_node)
+			level_node = []
+			queue = temp
+			temp = []
 		}
-
-		temp = a.concat();
-		if (res.length)
-			result.push(res);
 	}
-
 	return result;
-
 };
