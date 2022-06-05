@@ -33,6 +33,7 @@ Javascript solutions for Leetcode
 | #    | Title                                                                                             | Solution                                                                                                                    | Time | Space | Difficulty | Note |
 | ---- | ------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ---- | ----- | ---------- | ---- |
 | 0067 | [Add Binary](https://leetcode.com/problems/add-binary/)| [js](https://github.com/orifake/leetcode-js/blob/master/Add%20Binary.js)| O(n) | O(1)  | Easy |      |
+| 0136 | [Single Number](https://leetcode.com/problems/single-number/)| [js](https://github.com/orifake/leetcode-js/blob/master/Single%20Number.js)| O(n) | O(1)  | Easy |      |
 
 ## Array
 | #    | Title                                                                                                               | Solution                                                                                                                     | Time     | Space   | Difficulty | Note        |

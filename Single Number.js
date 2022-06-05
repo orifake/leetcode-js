@@ -1,15 +1,15 @@
 /**
+ *  Time: O(n)
+ *  Space: O(1)
+ */
+
+/**
  * @param {number[]} nums
  * @return {number}
  */
-var singleNumber = function(nums) {
-	var i;
-	var len = nums.length;
-	var result = nums[0];
-	if (len === 1) {
-		return result;
-	}
-	for (i = 1; i < len; i++) {
+const singleNumber = function (nums) {
+	let result = nums[0];
+	for (let i = 1; i < nums.length; i++) {
 		result = result ^ nums[i]
 	}
 	return result;
