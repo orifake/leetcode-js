@@ -1,9 +1,15 @@
 /**
+ *  Time: O(1)
+ *  Space: O(1)
+ */
+
+
+/**
  * @param {number} n - a positive integer
  * @return {number}
  */
-var hammingWeight = function(n) {
-    var ans = 0;
+const hammingWeight = function(n) {
+    let ans = 0;
     while (n) {
         if (n & 1) ans++;
         n /= 2;
