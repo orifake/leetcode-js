@@ -1,11 +1,16 @@
 /**
+ *  Time: O(1)
+ *  Space: O(1)
+ */
+
+/**
  * @param {number} a
  * @param {number} b
  * @return {number}
  */
-var getSum = function(a, b) {
+const getSum = function (a, b) {
 	while (b !== 0) {
-		var carry = a & b;
+		let carry = a & b;
 		a ^= b;
 		b = carry << 1;
 	}
