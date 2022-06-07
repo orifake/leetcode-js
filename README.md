@@ -40,6 +40,7 @@ Javascript solutions for Leetcode
 | 0326 | [Power of Three](https://leetcode.com/problems/power-of-three/)           | [js](https://github.com/orifake/leetcode-js/blob/master/Power%20of%20Three.js)        | O(1) | O(1)  | Easy       |      |
 | 0342 | [Power of Four](https://leetcode.com/problems/power-of-four/)             | [js](https://github.com/orifake/leetcode-js/blob/master/Power%20of%20Four.js)         | O(1) | O(1)  | Easy       |      |
 | 0371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | [js](https://github.com/orifake/leetcode-js/blob/master/Sum%20of%20Two%20Integers.js) | O(1) | O(1)  | Easy       |      |
+| 0389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | [js](https://github.com/orifake/leetcode-js/blob/master/Find%20the%20Difference.js)   | O(n) | O(1)  | Easy       |      |
 ## Array
 | #   | Title | Solution | Time | Space | Difficulty | Note |
 | --- | ----- | -------- | ---- | ----- | ---------- | ---- |

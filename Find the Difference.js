@@ -1,14 +1,19 @@
 /**
+ *  Time: O(n)
+ *  Space: O(1)
+ */
+
+/**
  * @param {string} s
  * @param {string} t
  * @return {character}
  */
-var findTheDifference = function(s, t) {
-    var sArray = s.split('').sort();
-    var tArray = t.split('').sort();
-    for (var i = 0, len = tArray.length; i < len; i++) {
-        if (sArray[i] !== tArray[i]) {
-            return tArray[i];
-        }
+const findTheDifference = function (s, t) {
+    let S = 0, T = 0
+    for (let i = 0; i < s.length; i++) {
+        S += s.charCodeAt(i)
+        T += t.charCodeAt(i)
     }
+    T += t[s.length].charCodeAt(0)
+    return String.fromCharCode(T - S)
 };
