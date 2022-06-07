@@ -1,8 +1,14 @@
 /**
+ *  Time: O(1)
+ *  Space: O(1)
+ */
+
+
+/**
  * @param {number} num
  * @return {boolean}
  */
-var isPowerOfFour = function(num) {
+const isPowerOfFour2 = function (num) {
 	if (num === 0) {
 		return false;
 	} else if (num === 1) {
@@ -23,6 +29,6 @@ var isPowerOfFour = function(num) {
  * 因为根据n & (n - 1)我们已经筛出来那些只有1个1的数了，所以和010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101 
  * 也就是0x5555555555555555相与就能知道1是在奇数位还是偶数位了。
  */
-var isPowerOfFour = function(num) {
-    return (num > 0) && ((num & (num - 1)) === 0) && ((num & 0x5555555555555) == num);
+const isPowerOfFour = function (num) {
+	return (num > 0) && ((num & (num - 1)) === 0) && ((num & 0x5555555555555) == num);
 };
