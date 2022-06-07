@@ -37,6 +37,7 @@ Javascript solutions for Leetcode
 | 0190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/)| [js](https://github.com/orifake/leetcode-js/blob/master/Reverse%20Bits.js)| O(1) | O(1)  | Easy |      |
 | 0191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [js](https://github.com/orifake/leetcode-js/blob/master/Number%20of%201%20Bits.js) | O(1) | O(1)  | Easy       |      |
 | 0231 | [Power of Two](https://leetcode.com/problems/power-of-two/)  | [js](https://github.com/orifake/leetcode-js/blob/master/Power%20of%20Two.js) | O(1) | O(1)  | Easy       |      |
+| 0326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | [js](https://github.com/orifake/leetcode-js/blob/master/Power%20of%20Three.js) | O(1) | O(1)  | Easy       |      |
 | 0342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | [js](https://github.com/orifake/leetcode-js/blob/master/Power%20of%20Four.js) | O(1) | O(1)  | Easy       |      |
 ## Array
 | #    | Title                                                                                                               | Solution                                                                                                                     | Time     | Space   | Difficulty | Note        |

@@ -1,8 +1,15 @@
 /**
+ *  Time: O(log3(n))
+ *  Space: O(1)
+ */
+
+/**
  * @param {number} n
  * @return {boolean}
  */
-var isPowerOfThree = function(n) {
+
+
+const isPowerOfThree = function (n) {
 	if (n === 0) {
 		return false
 	}
