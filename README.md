@@ -30,17 +30,18 @@ Javascript solutions for Leetcode
 * [Concurrency](https://github.com/orifake/leetcode-js#concurrency)
 
 ## Bit Manipulation
-| #    | Title                                                                     | Solution                                                                              | Time | Space | Difficulty | Note |
-| ---- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ---- | ----- | ---------- | ---- |
-| 0067 | [Add Binary](https://leetcode.com/problems/add-binary/)                   | [js](https://github.com/orifake/leetcode-js/blob/master/Add%20Binary.js)              | O(n) | O(1)  | Easy       |      |
-| 0136 | [Single Number](https://leetcode.com/problems/single-number/)             | [js](https://github.com/orifake/leetcode-js/blob/master/Single%20Number.js)           | O(n) | O(1)  | Easy       |      |
-| 0190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/)               | [js](https://github.com/orifake/leetcode-js/blob/master/Reverse%20Bits.js)            | O(1) | O(1)  | Easy       |      |
-| 0191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)       | [js](https://github.com/orifake/leetcode-js/blob/master/Number%20of%201%20Bits.js)    | O(1) | O(1)  | Easy       |      |
-| 0231 | [Power of Two](https://leetcode.com/problems/power-of-two/)               | [js](https://github.com/orifake/leetcode-js/blob/master/Power%20of%20Two.js)          | O(1) | O(1)  | Easy       |      |
-| 0326 | [Power of Three](https://leetcode.com/problems/power-of-three/)           | [js](https://github.com/orifake/leetcode-js/blob/master/Power%20of%20Three.js)        | O(1) | O(1)  | Easy       |      |
-| 0342 | [Power of Four](https://leetcode.com/problems/power-of-four/)             | [js](https://github.com/orifake/leetcode-js/blob/master/Power%20of%20Four.js)         | O(1) | O(1)  | Easy       |      |
-| 0371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | [js](https://github.com/orifake/leetcode-js/blob/master/Sum%20of%20Two%20Integers.js) | O(1) | O(1)  | Easy       |      |
-| 0389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | [js](https://github.com/orifake/leetcode-js/blob/master/Find%20the%20Difference.js)   | O(n) | O(1)  | Easy       |      |
+| #    | Title                                                                                             | Solution                                                                                                | Time | Space | Difficulty | Note |
+| ---- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ---- | ----- | ---------- | ---- |
+| 0067 | [Add Binary](https://leetcode.com/problems/add-binary/)                                           | [js](https://github.com/orifake/leetcode-js/blob/master/Add%20Binary.js)                                | O(n) | O(1)  | Easy       |      |
+| 0136 | [Single Number](https://leetcode.com/problems/single-number/)                                     | [js](https://github.com/orifake/leetcode-js/blob/master/Single%20Number.js)                             | O(n) | O(1)  | Easy       |      |
+| 0190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/)                                       | [js](https://github.com/orifake/leetcode-js/blob/master/Reverse%20Bits.js)                              | O(1) | O(1)  | Easy       |      |
+| 0191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)                               | [js](https://github.com/orifake/leetcode-js/blob/master/Number%20of%201%20Bits.js)                      | O(1) | O(1)  | Easy       |      |
+| 0231 | [Power of Two](https://leetcode.com/problems/power-of-two/)                                       | [js](https://github.com/orifake/leetcode-js/blob/master/Power%20of%20Two.js)                            | O(1) | O(1)  | Easy       |      |
+| 0326 | [Power of Three](https://leetcode.com/problems/power-of-three/)                                   | [js](https://github.com/orifake/leetcode-js/blob/master/Power%20of%20Three.js)                          | O(1) | O(1)  | Easy       |      |
+| 0342 | [Power of Four](https://leetcode.com/problems/power-of-four/)                                     | [js](https://github.com/orifake/leetcode-js/blob/master/Power%20of%20Four.js)                           | O(1) | O(1)  | Easy       |      |
+| 0371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)                         | [js](https://github.com/orifake/leetcode-js/blob/master/Sum%20of%20Two%20Integers.js)                   | O(1) | O(1)  | Easy       |      |
+| 0389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/)                         | [js](https://github.com/orifake/leetcode-js/blob/master/Find%20the%20Difference.js)                     | O(n) | O(1)  | Easy       |      |
+| 0405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | [js](https://github.com/orifake/leetcode-python/blob/master/Convert%20a%20Number%20to%20Hexadecimal.js) | O(1) | O(1)  | Easy       |      |
 ## Array
 | #   | Title | Solution | Time | Space | Difficulty | Note |
 | --- | ----- | -------- | ---- | ----- | ---------- | ---- |
