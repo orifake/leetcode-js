@@ -1,18 +1,20 @@
 /**
+ *  Time: O(n)
+ *  Space: O(1)
+ */
+
+/**
  * @param {number[]} nums
  * @return {number}
  */
-var removeDuplicates = function(nums) {
-    'use strict'
-    let result = 0;
-    for (let i = nums.length; i--;) {
-        if (i === nums.length - 1) {
-            result++
-        } else if ((nums[i] === nums[i + 1])) {
-            nums.splice(i, 1);
-        } else {
-            result++
-        }
+const removeDuplicates = function (nums) {
+  if (nums.length === 0) return 0
+  let i = 0
+  for (let j = 1; j < nums.length; j++) {
+    if (nums[i] !== nums[j]) {
+      i++
+      nums[i] = nums[j]
     }
-    return result;
+  }
+  return i + 1;
 };
