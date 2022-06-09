@@ -44,6 +44,8 @@ Javascript solutions for Leetcode
 | 0405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | [js](https://github.com/orifake/leetcode-python/blob/master/Convert%20a%20Number%20to%20Hexadecimal.js) | O(1) | O(1)  | Easy       |      |
 | 0461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/)                               | [js](https://github.com/orifake/leetcode-python/blob/master/Hamming%20Distance.js)                      | O(1) | O(1)  | Easy       |      |
 | 0476 | [Number Complement](https://leetcode.com/problems/number-complement/)                             | [js](https://github.com/orifake/leetcode-python/blob/master/Number%20Complement.js)                     | O(1) | O(1)  | Easy       |      |
+| 0504 | [Base 7](https://leetcode.com/problems/base-7/)                                                   | [js](https://github.com/orifake/leetcode-python/blob/master/Base%207.js)                                | O(1) | O(1)  | Easy       |      |
+
 ## Array
 | #   | Title | Solution | Time | Space | Difficulty | Note |
 | --- | ----- | -------- | ---- | ----- | ---------- | ---- |
