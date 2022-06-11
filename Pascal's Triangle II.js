@@ -1,22 +1,21 @@
 /**
+ *  Time: O(n^2)
+ *  Space: O(1)
+ */
+
+/**
  * @param {number} rowIndex
  * @return {number[]}
  */
-var getRow = function(rowIndex) {
-	var result = [
-		[1]
-	];
-	for (var i = 1; i < rowIndex + 1; i++) {
-		result[i] = [];
-		for (var j = 0; j <= i; j++) {
-			if (j === 0) {
-				result[i][j] = 1
-			} else if (j === i) {
-				result[i][j] = 1
-			} else {
-				result[i][j] = result[i - 1][j - 1] + result[i - 1][j];
-			}
+const getRow = function (rowIndex) {
+	let result = [1];
+	for (let i = 1; i < rowIndex + 1; i++) {
+		for (let j = i - 1; j > 0; j--) {
+			result[j] += result[j - 1]
 		}
+		result.push(1)
 	}
-	return result[rowIndex];
+	return result
 };
+
+console.log(getRow(4))
