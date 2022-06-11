@@ -47,11 +47,13 @@ Javascript solutions for Leetcode
 | 0504 | [Base 7](https://leetcode.com/problems/base-7/)                                                   | [js](https://github.com/orifake/leetcode-js/blob/master/Base%207.js)                                | O(1) | O(1)  | Easy       |      |
 
 ## Array
-| #    | Title                                                                                                     | Solution                                                                                                | Time | Space | Difficulty | Note        |
-| ---- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ---- | ----- | ---------- | ----------- |
-| 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [js](https://github.com/orifake/leetcode-js/blob/master/Remove%20Duplicates%20from%20Sorted%20Array.js) | O(n) | O(1)  | Easy       | Two Pointer |
-| 0027 | [Remove Element](https://leetcode.com/problems/remove-element/)                                           | [js](https://github.com/orifake/leetcode-js/blob/master/src/Remove%20Element.js)                        | O(n) | O(1)  | Easy       | Two Pointer |
-| 0027 | [Plus One](https://leetcode.com/problems/plus-one/)                                                       | [js](https://github.com/orifake/leetcode-js/blob/master/Plus%20One.js)                                  | O(n) | O(1)  | Easy       |             |
+| #    | Title                                                                                                     | Solution                                                                                                | Time   | Space | Difficulty | Note        |
+| ---- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------ | ----- | ---------- | ----------- |
+| 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [js](https://github.com/orifake/leetcode-js/blob/master/Remove%20Duplicates%20from%20Sorted%20Array.js) | O(n)   | O(1)  | Easy       | Two Pointer |
+| 0027 | [Remove Element](https://leetcode.com/problems/remove-element/)                                           | [js](https://github.com/orifake/leetcode-js/blob/master/src/Remove%20Element.js)                        | O(n)   | O(1)  | Easy       | Two Pointer |
+| 0066 | [Plus One](https://leetcode.com/problems/plus-one/)                                                       | [js](https://github.com/orifake/leetcode-js/blob/master/Plus%20One.js)                                  | O(n)   | O(1)  | Easy       |             |
+| 0118 | [Plus One](https://leetcode.com/problems/plus-one/)                                                       | [js](https://github.com/orifake/leetcode-js/blob/master/Plus%20One.js)                                  | O(n)   | O(1)  | Easy       |             |
+| 0118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)                                      | [js](https://github.com/orifake/leetcode-js/blob/master/Pascal's%20Triangle.js)                         | O(n^2) | O(1)  | Easy       |             |
 
 ## String
 | #   | Title | Solution | Time | Space | Difficulty | Note |

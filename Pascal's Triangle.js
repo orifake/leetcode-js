@@ -1,14 +1,20 @@
 /**
+ *  Time: O(n)
+ *  Space: O(1)
+ */
+
+
+/**
  * @param {number} numRows
  * @return {number[][]}
  */
-var generate = function(numRows) {
-	var result = numRows > 0 ? [
+const generate = function (numRows) {
+	let result = numRows > 0 ? [
 		[1]
 	] : [];
-	for (var i = 1; i < numRows; i++) {
+	for (let i = 1; i < numRows; i++) {
 		result[i] = [];
-		for (var j = 0; j <= i; j++) {
+		for (let j = 0; j <= i; j++) {
 			if (j === 0) {
 				result[i][j] = 1
 			} else if (j === i) {
