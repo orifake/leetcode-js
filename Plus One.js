@@ -1,26 +1,24 @@
 /**
+ *  Time: O(n)
+ *  Space: O(1)
+ */
+
+/**
  * @param {number[]} digits
  * @return {number[]}
  */
-var plusOne = function(digits) {
-	var rusult = digits.concat(),
-		add = 0,
-		len = digits.length;
-
-	digits[len - 1]++;
-
-	for (var i = len - 1; i >= 0; i--) {
-		var sum = digits[i] + add;
-		rusult[i] = sum % 10;
-		add = ~~(sum / 10);
-		if (!add) {
-			break;
+const plusOne = function (digits) {
+	for (let i = digits.length - 1; i >= 0; i--) {
+		if (digits[i] === 9) {
+			digits[i] = 0
+		} else {
+			digits[i] = digits[i] + 1;
+			return digits
 		}
-
 	}
-
-	if (add)
-		rusult.unshift(add);
-
-	return rusult;
+	digits[0] = 1
+	digits.push(0)
+	return digits
 };
+
+console.log(plusOne([9, 9, 9]))
