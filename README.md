@@ -54,7 +54,8 @@ Javascript solutions for Leetcode
 | 0066 | [Plus One](https://leetcode.com/problems/plus-one/)                                                       | [js](https://github.com/orifake/leetcode-js/blob/master/Plus%20One.js)                                  | O(n)   | O(1)  | Easy       |             |
 | 0118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)                                      | [js](https://github.com/orifake/leetcode-js/blob/master/Pascal's%20Triangle.js)                         | O(n^2) | O(1)  | Easy       |             |
 | 0119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)                                | [js](https://github.com/orifake/leetcode-js/blob/master/Pascal's%20Triangle%20II.js)                    | O(n^2) | O(1)  | Easy       |             |
-
+| 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)         | [js](https://github.com/orifake/leetcode-js/blob/master/Pascal's%20Triangle%20II.js)                    | O(n)   | O(1)  | Easy       |             |
+| 0169 | [Majority Element](https://leetcode.com/problems/majority-element/)                                       | [js](https://github.com/orifake/leetcode-js/blob/master/Majority%20Element.js)                          | O(n)   | O(1)  | Easy       |             |
 ## String
 | #   | Title | Solution | Time | Space | Difficulty | Note |
 | --- | ----- | -------- | ---- | ----- | ---------- | ---- |
