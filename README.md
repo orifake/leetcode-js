@@ -57,6 +57,7 @@ Javascript solutions for Leetcode
 | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)         | [js](https://github.com/orifake/leetcode-js/blob/master/Pascal's%20Triangle%20II.js)                    | O(n)   | O(1)  | Easy       |             |
 | 0169 | [Majority Element](https://leetcode.com/problems/majority-element/)                                       | [js](https://github.com/orifake/leetcode-js/blob/master/Majority%20Element.js)                          | O(n)   | O(1)  | Easy       |             |
 | 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)                                                     | [js](https://github.com/orifake/leetcode-js/blob/master/Fizz%20Buzz.js)                                 | O(n)   | O(1)  | Easy       |             |
+| 0414 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)                               | [js](https://github.com/orifake/leetcode-js/blob/master/src/Third%20Maximum%20Number.js)                | O(n)   | O(1)  | Easy       |             |
 ## String
 | #   | Title | Solution | Time | Space | Difficulty | Note |
 | --- | ----- | -------- | ---- | ----- | ---------- | ---- |
