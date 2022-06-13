@@ -65,8 +65,10 @@ Javascript solutions for Leetcode
 
 
 ## Linked List
-| #   | Title | Solution | Time | Space | Difficulty | Note |
-| --- | ----- | -------- | ---- | ----- | ---------- | ---- |
+| #    | Title                                                                                         | Solution                                                                                          | Time | Space | Difficulty | Note |
+| ---- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ---- | ----- | ---------- | ---- |
+| 0138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [js](https://github.com/orifake/leetcode-js/blob/master/Copy%20List%20With%20Random%20Pointer.js) | O(n) | O(n)  | Medium     |
+
 
 ## Stack
 | #   | Title | Solution | Time | Space | Difficulty | Note |
