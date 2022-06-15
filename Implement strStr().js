@@ -3,20 +3,42 @@
  * @param {string} needle
  * @return {number}
  */
-var strStr = function(haystack, needle) {
-	let len1 = haystack.length;
-	let len2 = needle.length;
 
-	if (len2 === 0) {
-		return 0;
+const getPrefix = function (pattern) {
+	const prefix = Array.from({ length: pattern.length }, () => -1)
+	j = -1
+	for (let i = 1; i < pattern.length; i++) {
+		while (j > -1 && pattern[j + 1] != pattern[i]) {
+			j = prefix[j]
+		}
+		if (pattern[j + 1] === pattern[i]) {
+			j += 1
+		}
+		prefix[i] = j
 	}
-	if (len1 === 0 || len1 < len2) {
-		return -1;
-	}
-	for (let i = 0; i <= len1 - len2; i++) {
-		if (haystack.substring(i, i + len2) === needle) {
-			return i;
+	return prefix
+}
+
+const KMP = function (text, pattern) {
+	const prefix = getPrefix(pattern)
+	let j = -1
+	for (let i = 0; i < text.length; i++) {
+		while (j > -1 && pattern[j + 1] != text[i]) {
+			j = prefix[j]
+		}
+		if (pattern[j + 1] === text[i]) {
+			j += 1
+		}
+		if (j === (pattern.length - 1)) {
+			return i - j
 		}
 	}
-	return -1;
+	return -1
+}
+
+const strStr = function (haystack, needle) {
+	if (!needle) return 0
+	return KMP(haystack, needle)
 };
+
+console.log(strStr("mississippi", "pi"))
