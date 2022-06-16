@@ -64,10 +64,12 @@ Javascript solutions for Leetcode
 | 0581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)       | [js](https://github.com/orifake/leetcode-js/blob/master/Shortest%20Unsorted%20Continuous%20Subarray.js)          | O(n)     | O(1)    | Medium     | Two Pointers |
 
 ## String
-| #    | Title                                                                         | Solution                                                                              | Time   | Space | Difficulty | Note         |
-| ---- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------ | ----- | ---------- | ------------ |
-| 0014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [js](https://github.com/orifake/leetcode-js/blob/master/Longest%20Common%20Prefix.js) | O(n*k) | O(1)  | Easy       |              |
-| 0028 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/)         | [python](https://github.com/orifake/leetcode-js/blob/master/Implement%20strStr.js)    | O(n+k) | O(k)  | Easy       | Two Pointers |
+| #    | Title                                                                         | Solution                                                                              | Time       | Space  | Difficulty | Note         |
+| ---- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ---------- | ------ | ---------- | ------------ |
+| 0014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [js](https://github.com/orifake/leetcode-js/blob/master/Longest%20Common%20Prefix.js) | O(n*k)     | O(1)   | Easy       |              |
+| 0028 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/)         | [js](https://github.com/orifake/leetcode-js/blob/master/Implement%20strStr.js)        | O(n+k)     | O(k)   | Easy       | Two Pointers |
+| 0038 | [Count and Say](https://leetcode.com/problems/count-and-say/)                 | [js](https://github.com/orifake/leetcode-js/blob/master/Count%20and%20Say.js)         | O(n * 2^n) | O(2^n) | Easy       |              |
+
 ## Linked List
 | #    | Title                                                                                         | Solution                                                                                          | Time | Space | Difficulty | Note |
 | ---- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ---- | ----- | ---------- | ---- |
