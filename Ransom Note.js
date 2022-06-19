@@ -3,20 +3,25 @@
  * @param {string} magazine
  * @return {boolean}
  */
-var canConstruct = function(ransomNote, magazine) {
-	var map = {};
-	for (var i = 0, len1 = ransomNote.length; i < len1; i++) {
-		var item = ransomNote[i];
-		for (var j = 0, len2 = magazine.length; j < len2; j++) {
-			if (map[j] || magazine[j] !== item) {
-				continue;
-			}
-			map[j] = true;
-			break;
+const canConstruct = function (ransomNote, magazine) {
+	const map = {};
+	for (let i = 0; i < magazine.length; i++) {
+		const word = magazine[i];
+		if (map[word]) {
+			map[word] += 1
+		} else {
+			map[word] = 1
 		}
-		if (j === len2) {
-			return false;
+	}
+	for (let j = 0; j < ransomNote.length; j++) {
+		const word = ransomNote[j];
+		if (!map[word] || map[word] < 1) {
+			return false
+		} else {
+			map[word] -= 1
 		}
 	}
 	return true;
 };
+
+console.log(canConstruct("aa", "aab"))

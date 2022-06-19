@@ -70,6 +70,7 @@ Javascript solutions for Leetcode
 | 0028 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/)         | [js](https://github.com/orifake/leetcode-js/blob/master/Implement%20strStr.js)        | O(n+k)     | O(k)   | Easy       | Two Pointers |
 | 0038 | [Count and Say](https://leetcode.com/problems/count-and-say/)                 | [js](https://github.com/orifake/leetcode-js/blob/master/Count%20and%20Say.js)         | O(n * 2^n) | O(2^n) | Easy       |              |
 | 0058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)     | [js](https://github.com/orifake/leetcode-js/blob/master/Length%20of%20Last%20Word.js) | O(n)       | O(1)   | Easy       |              |
+| 0383 | [Ransom Note](https://leetcode.com/problems/ransom-note/)                     | [js](https://github.com/orifake/leetcode-js/blob/master/Ransom%20Note.js)             | O(n)       | O(1)   | Easy       | Hash Map     |
 
 ## Linked List
 | #    | Title                                                                                         | Solution                                                                                          | Time | Space | Difficulty | Note |
