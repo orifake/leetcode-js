@@ -75,6 +75,7 @@ Javascript solutions for Leetcode
 | 0434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/) | [js](https://github.com/orifake/leetcode-js/blob/master/Add%20Strings.js)                  | O(n)       | O(1)   | Easy       |               |
 | 0459 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)         | [js](https://github.com/orifake/leetcode-js/blob/master/Repeated%20Substring%20Pattern.js) | O(n)       | O(n)   | Easy       | KMP Algorithm |
 | 0482 | [License Key Formatting](https://leetcode.com/problems/license-key-formatting/)                 | [js](https://github.com/orifake/leetcode-js/blob/master/License%20Key%20Formatting.js)     | O(n)       | O(1)   | Easy       |               |
+| 0520 | [Detect Capital](https://leetcode.com/problems/detect-capital/)                                 | [js](https://github.com/orifake/leetcode-js/blob/master/Detect%20Capital.js)               | O(n)       | O(1)   | Easy       |               |
 
 ## Linked List
 | #    | Title                                                                                         | Solution                                                                                          | Time | Space | Difficulty | Note |
