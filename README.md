@@ -78,7 +78,9 @@ Javascript solutions for Leetcode
 | 0520 | [Detect Capital](https://leetcode.com/problems/detect-capital/)                                 | [js](https://github.com/orifake/leetcode-js/blob/master/Detect%20Capital.js)                     | O(n)         | O(1)   | Easy       |               |
 | 0521 | [Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/) | [js](https://github.com/orifake/leetcode-js/blob/master/Longest%20Uncommon%20Subsequence%20I.js) | O(min(a, b)) | O(1)   | Easy       |               |
 |      |
-| 0541 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii/)                           | [js](https://github.com/orifake/leetcode-js/blob/master/Reverse%20String%20II.js)            | O(n）        | O(1)   | Easy       |               |
+| 0541 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii/)                           | [js](https://github.com/orifake/leetcode-js/blob/master/Reverse%20String%20II.js)                | O(n）        | O(1)   | Easy       |               |
+|      |
+| 0551 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)       | [js](https://github.com/orifake/leetcode-js/blob/master/Student%20Attendance%20Record%20I.js)    | O(n）        | O(1)   | Easy       |               |
 |      |
 
 ## Linked List
