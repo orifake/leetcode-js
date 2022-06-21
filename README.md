@@ -91,9 +91,9 @@ Javascript solutions for Leetcode
 
 
 ## Stack
-| #   | Title | Solution | Time | Space | Difficulty | Note |
-| --- | ----- | -------- | ---- | ----- | ---------- | ---- |
-
+| #    | Title                                                                 | Solution                                                                                    | Time | Space | Difficulty | Note |
+| ---- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ---- | ----- | ---------- | ---- |
+| 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [js](https://github.com/orifake/leetcode-js/blob/master/Valid%20Parentheses.js) | O(n) | O(1)  | Easy       |      |
 
 ## Queue
 | #   | Title | Solution | Time | Space | Difficulty | Note |

@@ -2,14 +2,14 @@
  * @param {string} s
  * @return {boolean}
  */
-var isValid = function(s) {
-    var stack = [];
-    var pairs = {
+const isValid = function (s) {
+    const stack = [];
+    const pairs = {
         '(': ')',
         '[': ']',
         '{': '}'
     }
-    for (var i = 0; i < s.length; i++) {
+    for (let i = 0; i < s.length; i++) {
         if (!stack.length) {
             stack.push(s[i])
         } else {
