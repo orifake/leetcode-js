@@ -91,13 +91,14 @@ Javascript solutions for Leetcode
 
 
 ## Stack
-| #     | Title                                                                                       | Solution                                                                                     | Time | Space | Difficulty | Note |
-| ----- | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ---- | ----- | ---------- | ---- |
-| 0020  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                       | [js](https://github.com/orifake/leetcode-js/blob/master/Valid%20Parentheses.js)              | O(n) | O(1)  | Easy       |      |
-| 0496  | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)             | [js](https://github.com/orifake/leetcode-js/blob/master/Next%20Greater%20Element%20I.js)     | O(n) | O(n)  | Easy       |      |
-| 0682  | [Baseball Game](https://leetcode.com/problems/baseball-game/)                               | [js](https://github.com/orifake/leetcode-js/blob/master/Baseball%20Game.js)                  | O(n) | O(n)  | Easy       |      |
-| 0844  | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)         | [js](https://github.com/orifake/leetcode-js/blob/master/Backspace%20String%20Compare.js)                  | O(n) | O(1)  | Easy       |      |
-| 01021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | [js](https://github.com/orifake/leetcode-js/blob/master/Remove%20Outermost%20Parentheses.js) | O(n) | O(1)  | Easy       |      |
+| #     | Title                                                                                                               | Solution                                                                                                       | Time | Space | Difficulty | Note |
+| ----- | ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ---- | ----- | ---------- | ---- |
+| 0020  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                                               | [js](https://github.com/orifake/leetcode-js/blob/master/Valid%20Parentheses.js)                                | O(n) | O(1)  | Easy       |      |
+| 0496  | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)                                     | [js](https://github.com/orifake/leetcode-js/blob/master/Next%20Greater%20Element%20I.js)                       | O(n) | O(n)  | Easy       |      |
+| 0682  | [Baseball Game](https://leetcode.com/problems/baseball-game/)                                                       | [js](https://github.com/orifake/leetcode-js/blob/master/Baseball%20Game.js)                                    | O(n) | O(n)  | Easy       |      |
+| 0844  | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)                                 | [js](https://github.com/orifake/leetcode-js/blob/master/Backspace%20String%20Compare.js)                       | O(n) | O(1)  | Easy       |      |
+| 01047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [js](https://github.com/orifake/leetcode-js/blob/master/Remove%20All%20Adjacent%20Duplicates%20In%20String.js) | O(n) | O(n)  | Easy       |      |
+| 01021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)                         | [js](https://github.com/orifake/leetcode-js/blob/master/Remove%20Outermost%20Parentheses.js)                   | O(n) | O(1)  | Easy       |      |
 
 ## Queue
 | #   | Title | Solution | Time | Space | Difficulty | Note |
