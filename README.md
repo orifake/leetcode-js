@@ -91,11 +91,12 @@ Javascript solutions for Leetcode
 
 
 ## Stack
-| #    | Title                                                                           | Solution                                                                                 | Time | Space | Difficulty | Note |
-| ---- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---- | ----- | ---------- | ---- |
-| 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)           | [js](https://github.com/orifake/leetcode-js/blob/master/Valid%20Parentheses.js)          | O(n) | O(1)  | Easy       |      |
-| 0496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | [js](https://github.com/orifake/leetcode-js/blob/master/Next%20Greater%20Element%20I.js) | O(n) | O(n)  | Easy       |      |
-| 0682 | [Baseball Game](https://leetcode.com/problems/baseball-game/)                   | [js](https://github.com/orifake/leetcode-js/blob/master/Baseball%20Game.js)              | O(n) | O(n)  | Easy       |      |
+| #     | Title                                                                                       | Solution                                                                                 | Time | Space | Difficulty | Note |
+| ----- | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---- | ----- | ---------- | ---- |
+| 0020  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                       | [js](https://github.com/orifake/leetcode-js/blob/master/Valid%20Parentheses.js)          | O(n) | O(1)  | Easy       |      |
+| 0496  | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)             | [js](https://github.com/orifake/leetcode-js/blob/master/Next%20Greater%20Element%20I.js) | O(n) | O(n)  | Easy       |      |
+| 0682  | [Baseball Game](https://leetcode.com/problems/baseball-game/)                               | [js](https://github.com/orifake/leetcode-js/blob/master/Baseball%20Game.js)              | O(n) | O(n)  | Easy       |      |
+| 01021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | [js](https://github.com/orifake/leetcode-js/blob/master/Remove%20Outermost%20Parentheses.js)              | O(n) | O(1)  | Easy       |      |
 
 ## Queue
 | #   | Title | Solution | Time | Space | Difficulty | Note |
