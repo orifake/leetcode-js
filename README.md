@@ -99,6 +99,8 @@ Javascript solutions for Leetcode
 | 0844  | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)                                 | [js](https://github.com/orifake/leetcode-js/blob/master/Backspace%20String%20Compare.js)                       | O(n) | O(1)  | Easy       |      |
 | 01047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [js](https://github.com/orifake/leetcode-js/blob/master/Remove%20All%20Adjacent%20Duplicates%20In%20String.js) | O(n) | O(n)  | Easy       |      |
 | 01021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)                         | [js](https://github.com/orifake/leetcode-js/blob/master/Remove%20Outermost%20Parentheses.js)                   | O(n) | O(1)  | Easy       |      |
+| 01544 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/)                                       | [js](https://github.com/orifake/leetcode-js/blob/master/Make%20The%20String%20Great.js)                        | O(n) | O(n)  | Easy       |      |
+
 
 ## Queue
 | #   | Title | Solution | Time | Space | Difficulty | Note |
