@@ -123,9 +123,9 @@ Javascript solutions for Leetcode
 
 
 ## Hash Table
-| #   | Title | Solution | Time | Space | Difficulty | Note |
-| --- | ----- | -------- | ---- | ----- | ---------- | ---- |
-
+| #    | Title                                             | Solution                                                              | Time | Space | Difficulty | Note |
+| ---- | ------------------------------------------------- | --------------------------------------------------------------------- | ---- | ----- | ---------- | ---- |
+| 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | [js](https://github.com/orifake/leetcode-js/blob/master/Two%20Sum.js) | O(n) | O(1)  | Easy       |      |
 
 ## Math
 | #    | Title                                                   | Solution                                                                 | Time | Space | Difficulty | Note |
