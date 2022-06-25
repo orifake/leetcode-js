@@ -123,9 +123,10 @@ Javascript solutions for Leetcode
 
 
 ## Hash Table
-| #    | Title                                             | Solution                                                              | Time | Space | Difficulty | Note |
-| ---- | ------------------------------------------------- | --------------------------------------------------------------------- | ---- | ----- | ---------- | ---- |
-| 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | [js](https://github.com/orifake/leetcode-js/blob/master/Two%20Sum.js) | O(n) | O(1)  | Easy       |      |
+| #    | Title                                                                                                                           | Solution                                                                                                           | Time | Space | Difficulty | Note           |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ---- | ----- | ---------- | -------------- |
+| 0001 | [Two Sum](https://leetcode.com/problems/two-sum/)                                                                               | [js](https://github.com/orifake/leetcode-js/blob/master/Two%20Sum.js)                                              | O(n) | O(1)  | Easy       |                |
+| 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [js](https://github.com/orifake/leetcode-js/blob/master/Longest%20Substring%20Without%20Repeating%20Characters.js) | O(n) | O(1)  | Easy       | Sliding Window |
 
 ## Math
 | #    | Title                                                   | Solution                                                                 | Time | Space | Difficulty | Note |
