@@ -3,20 +3,17 @@
  * @param {number} k
  * @return {boolean}
  */
-var containsNearbyDuplicate = function(nums, k) {
-	var map = {},
-		len = nums.length,
-		i;
+const containsNearbyDuplicate = function (nums, k) {
+	const lookup = {};
 
-	for (i = 0; i < len; i++) {
-		if (map.hasOwnProperty(nums[i])) {
-			if (i - map[nums[i]] <= k) {
+	for (let i = 0; i < nums.length; i++) {
+		if (lookup.hasOwnProperty(nums[i])) {
+			if (i - lookup[nums[i]] <= k) {
 				return true;
 			}
-
-			map[nums[i]] = i;
+			lookup[nums[i]] = i;
 		} else {
-			map[nums[i]] = i;
+			lookup[nums[i]] = i;
 		}
 	}
 
