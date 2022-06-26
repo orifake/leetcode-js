@@ -3,25 +3,30 @@
  * @param {string} str
  * @return {boolean}
  */
-var wordPattern = function(pattern, str) {
-	var patternArray = pattern.split('');
-	var strArray = str.split(' ');
-	if (patternArray.length !== strArray.length) {
-		return false;
+const wordPattern = function (pattern, str) {
+	const lookup = {}
+	const words = str.split(' ')
+	if (pattern.length !== words.length) {
+		return false
 	}
-	var mapPattern = {};
-	var mapStr = {};
-	for (var i = 0; i < patternArray.length; i++) {
-		if (!mapPattern[patternArray[i]]) {
-			mapPattern[patternArray[i]] = strArray[i];
-		} else if (mapPattern[patternArray[i]] !== strArray[i]) {
-			return false;
+	for (let i = 0; i < pattern.length; i++) {
+		let key = pattern[i]
+		let word = words[i]
+		let char_key = `char_${key}`
+		let char_word = `word_${word}`
+
+		if (!lookup.hasOwnProperty(char_key)) {
+			lookup[char_key] = i
 		}
-		if (!mapStr[strArray[i]]) {
-			mapStr[strArray[i]] = patternArray[i];
-		} else if (mapStr[strArray[i]] !== patternArray[i]) {
-			return false;
+		if (!lookup.hasOwnProperty(char_word)) {
+			lookup[char_word] = i
+		}
+		if (lookup[char_key] !== lookup[char_word]) {
+			return false
 		}
 	}
-	return true;
+	return true
 };
+
+console.log(wordPattern("abba", "dog cat cat dog"))
+console.log(wordPattern("abba", "dog cat cat fish"))
