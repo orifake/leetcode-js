@@ -130,6 +130,7 @@ Javascript solutions for Leetcode
 | 0205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)                                                         | [js](https://github.com/orifake/leetcode-js/blob/master/Isomorphic%20Strings.js)                                   | O(n) | O(1)  | Easy       |                |
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                                                         | [js](https://github.com/orifake/leetcode-js/blob/master/Contains%20Duplicate.js)                                   | O(n) | O(n)  | Easy       |                |
 | 0219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)                                                   | [js](https://github.com/orifake/leetcode-js/blob/master/Contains%20Duplicate%20II.js)                              | O(n) | O(n)  | Easy       |                |
+| 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                                                   | [js](https://github.com/orifake/leetcode-js/blob/master/Valid%20Anagram.js)                                        | O(n) | O(1)  | Easy       |                |
 
 ## Math
 | #    | Title                                                   | Solution                                                                 | Time | Space | Difficulty | Note |

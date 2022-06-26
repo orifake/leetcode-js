@@ -3,17 +3,17 @@
  * @param {string} t
  * @return {boolean}
  */
-var isAnagram = function(s, t) {
+const isAnagram = function (s, t) {
 	if (s.length !== t.length) {
 		return false;
 	}
-	for (var i = 0; i < s.length; i++) {
-		var index = t.indexOf(s[i]);
-		if (index > -1) {
-			t = t.substring(0, index) + t.substring(index + 1);
-		} else {
-			return false;
-		}
+	const counter = {}
+	for (let c of s) {
+		counter[c] = (counter[c] || 0) + 1;
+	}
+	for (let c of t) {
+		if (!counter[c]) return false;
+		counter[c]--;
 	}
 	return true;
 };
