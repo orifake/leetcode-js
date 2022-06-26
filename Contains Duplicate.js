@@ -2,18 +2,16 @@
  * @param {number[]} nums
  * @return {boolean}
  */
-var containsDuplicate = function(nums) {
-	var i;
-	var len = nums.length;
-	var map = {};
-	if (len === 0) {
+const containsDuplicate = function (nums) {
+	const lookup = {};
+	if (nums.length === 0) {
 		return false;
 	}
-	for (i = 0; i < len; i++) {
-		if (map.hasOwnProperty(nums[i])) {
+	for (let i = 0; i < nums.length; i++) {
+		if (lookup.hasOwnProperty(nums[i])) {
 			return true;
 		}
-		map[nums[i]] = i;
+		lookup[nums[i]] = i;
 	}
 	return false;
 };
