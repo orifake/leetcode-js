@@ -132,6 +132,7 @@ Javascript solutions for Leetcode
 | 0219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)                                                   | [js](https://github.com/orifake/leetcode-js/blob/master/Contains%20Duplicate%20II.js)                              | O(n) | O(n)  | Easy       |                |
 | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                                                   | [js](https://github.com/orifake/leetcode-js/blob/master/Valid%20Anagram.js)                                        | O(n) | O(1)  | Easy       |                |
 | 0290 | [Word Pattern](https://leetcode.com/problems/word-pattern/)                                                                     | [js](https://github.com/orifake/leetcode-js/blob/master/Word%20Pattern.js)                                         | O(n) | O(1)  | Easy       |                |
+| 0299 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)                                                                 | [js](https://github.com/orifake/leetcode-js/blob/master/Bulls%20and%20Cows.js)                                     | O(n) | O(1)  | Medium     |                |
 
 ## Math
 | #    | Title                                                   | Solution                                                                 | Time | Space | Difficulty | Note |

@@ -3,28 +3,24 @@
  * @param {string} guess
  * @return {string}
  */
-var getHint = function(secret, guess) {
-    "use strict"
-    var secretArray = secret.split("");
-    var guessArray = guess.split("");
-    var bullCount = 0,
-        cowCount = 0,
-        length = secretArray.length;
-    for (var i = 0; i < length; i++) {
-        if (secretArray[i] === guessArray[i]) {
-            bullCount++;
-            secretArray.splice(i, 1);
-            guessArray.splice(i, 1);
-            length--;
-            i--;
-        }
+const getHint = function (secret, guess) {
+  let bull = 0;
+  let cow = 0;
+  const map = {};
+  for (let i = 0; i < secret.length; i++) {
+    const s = secret.charAt(i);
+    const g = guess.charAt(i);
+    if (s === g) {
+      bull++;
+    } else {
+      if (map[s] < 0) cow++;
+      if (map[g] > 0) cow++;
+      map[s] = parseInt(map[s] || '0') + 1;
+      map[g] = parseInt(map[g] || '0') - 1;
     }
-    for (var i = 0; i < length; i++) {
-        let index = guessArray.indexOf(secretArray[i]);
-        if (index >= 0) {
-            cowCount++,
-            guessArray.splice(index, 1);
-        }
-    }
-    return bullCount + "A" + cowCount + "B";
+  }
+  return `${bull}A${cow}B`;
 };
+
+
+console.log(getHint("11", "10"))
