@@ -133,6 +133,7 @@ Javascript solutions for Leetcode
 | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                                                   | [js](https://github.com/orifake/leetcode-js/blob/master/Valid%20Anagram.js)                                        | O(n) | O(1)  | Easy       |                |
 | 0290 | [Word Pattern](https://leetcode.com/problems/word-pattern/)                                                                     | [js](https://github.com/orifake/leetcode-js/blob/master/Word%20Pattern.js)                                         | O(n) | O(1)  | Easy       |                |
 | 0299 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)                                                                 | [js](https://github.com/orifake/leetcode-js/blob/master/Bulls%20and%20Cows.js)                                     | O(n) | O(1)  | Medium     |                |
+| 0387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)                         | [python](https://github.com/orifake/leetcode-js/blob/master/First%20Unique%20Character%20in%20a%20String.js)       | O(n) | O(1)  | Easy       |                |
 
 ## Math
 | #    | Title                                                   | Solution                                                                 | Time | Space | Difficulty | Note |
