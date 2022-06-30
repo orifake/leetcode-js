@@ -10,27 +10,20 @@
  * @param {number} val
  * @return {ListNode}
  */
-var removeElements = function(head, val) {
-	var ans = [];
-
-	while (head) {
-		ans.push(new ListNode(head.val));
-		head = head.next;
-	}
-
-	for (var i = ans.length; i--;) {
-		if (ans[i].val === val) {
-			ans.splice(i, 1);
+const removeElements = function (head, val) {
+	if (!head) return null
+	let dummy = new ListNode(0)
+	dummy.next = head
+	let prev = dummy
+	let curr = dummy.next
+	while (curr) {
+		if (curr.val === val) {
+			prev.next = curr.next
+		} else {
+			prev = prev.next
 		}
+		curr = curr.next
 	}
 
-	if (!ans.length) {
-		return null;
-	}
-
-	for (var i = 0, len = ans.length; i < len - 1; i++) {
-		ans[i].next = ans[i + 1];
-	}
-
-	return ans[0];
+	return dummy.next
 };
