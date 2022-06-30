@@ -89,6 +89,7 @@ Javascript solutions for Leetcode
 ## Linked List
 | #    | Title                                                                                         | Solution                                                                                          | Time | Space | Difficulty | Note |
 | ---- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ---- | ----- | ---------- | ---- |
+| 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                             | [js](https://github.com/orifake/leetcode-js/blob/master/Add%20Two%20Numbers.js)                   | O(n) | O(1)  | Medium     |      |
 | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)               | [js](https://github.com/orifake/leetcode-js/blob/master/Merge%20Two%20Sorted%20Lists.js)          | O(n) | O(1)  | Easy       |      |
 | 0138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [js](https://github.com/orifake/leetcode-js/blob/master/Copy%20List%20With%20Random%20Pointer.js) | O(n) | O(n)  | Medium     |
 
