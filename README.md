@@ -96,6 +96,8 @@ Javascript solutions for Leetcode
 | 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)                                   | [js](https://github.com/orifake/leetcode-js/blob/master/Linked%20List%20Cycle.js)                        | O(n)   | O(1)  | Easy       |              |
 | 0160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)     | [js](https://github.com/orifake/leetcode-python/blob/master/Intersection%20of%20Two%20Linked%20Lists.js) | O(m+n) | O(1)  | Easy       | Two Pointers |
 | 0203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)               | [js](https://github.com/orifake/leetcode-js/blob/master/Remove%20Linked%20List%20Elements.js)            | O(n)   | O(1)  | Easy       |              |
+| 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)                               | [js](https://github.com/orifake/leetcode-js/blob/master/Reverse%20Linked%20List.js)                      | O(n)   | O(1)  | Easy       |              |
+| 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)                         | [js](https://github.com/orifake/leetcode-js/blob/master/Palindrome%20Linked%20List.js)                   | O(n)   | O(1)  | Easy       | Two Pointers |
 
 
 
