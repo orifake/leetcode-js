@@ -93,7 +93,9 @@ Javascript solutions for Leetcode
 | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)                         | [js](https://github.com/orifake/leetcode-js/blob/master/Merge%20Two%20Sorted%20Lists.js)                 | O(n)   | O(1)  | Easy       |      |
 | 0083 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [js](https://github.com/orifake/leetcode-js/blob/master/Merge%20Two%20Sorted%20Lists.js)                 | O(n)   | O(1)  | Easy       |      |
 | 0138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)           | [js](https://github.com/orifake/leetcode-js/blob/master/Copy%20List%20With%20Random%20Pointer.js)        | O(n)   | O(n)  | Medium     |
+| 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)                                   | [js](https://github.com/orifake/leetcode-js/blob/master/Linked%20List%20Cycle.js)                        | O(n)   | O(1)  | Easy       |      |
 | 0160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)     | [js](https://github.com/orifake/leetcode-python/blob/master/Intersection%20of%20Two%20Linked%20Lists.js) | O(m+n) | O(1)  | Easy       |      |
+
 
 
 ## Stack
