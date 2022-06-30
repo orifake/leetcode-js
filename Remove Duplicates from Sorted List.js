@@ -9,17 +9,15 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-var deleteDuplicates = function(head) {
-    let result = [];
-    while (head) {
-        if (result.length === 0 || result[result.length - 1].val !== head.val) {
-            result.push(head)
-        }
-        head = head.next;
+const deleteDuplicates = function (head) {
+  let curr = head
+  while (curr) {
+    let runner = curr.next
+    while (runner && curr.val === runner.val) {
+      runner = runner.next
     }
-    for (let i = 0; i < result.length; i++) {
-        result[i].next = result[i + 1];
-    }
-
-    return result.length === 0 ? null : result[0];
+    curr.next = runner
+    curr = runner
+  }
+  return head
 };
