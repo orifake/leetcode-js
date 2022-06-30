@@ -87,13 +87,13 @@ Javascript solutions for Leetcode
 | 0557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)   | [js](https://github.com/orifake/leetcode-js/blob/master/Reverse%20Words%20in%20a%20String%20III.js) | O(n）        | O(n)   | Easy       |               |
 
 ## Linked List
-| #    | Title                                                                                                   | Solution                                                                                          | Time | Space | Difficulty | Note |
-| ---- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ---- | ----- | ---------- | ---- |
-| 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                                       | [js](https://github.com/orifake/leetcode-js/blob/master/Add%20Two%20Numbers.js)                   | O(n) | O(1)  | Medium     |      |
-| 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)                         | [js](https://github.com/orifake/leetcode-js/blob/master/Merge%20Two%20Sorted%20Lists.js)          | O(n) | O(1)  | Easy       |      |
-| 0083 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [js](https://github.com/orifake/leetcode-js/blob/master/Merge%20Two%20Sorted%20Lists.js)          | O(n) | O(1)  | Easy       |      |
-| 0138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)           | [js](https://github.com/orifake/leetcode-js/blob/master/Copy%20List%20With%20Random%20Pointer.js) | O(n) | O(n)  | Medium     |
-
+| #    | Title                                                                                                   | Solution                                                                                                 | Time   | Space | Difficulty | Note |
+| ---- | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------ | ----- | ---------- | ---- |
+| 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                                       | [js](https://github.com/orifake/leetcode-js/blob/master/Add%20Two%20Numbers.js)                          | O(n)   | O(1)  | Medium     |      |
+| 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)                         | [js](https://github.com/orifake/leetcode-js/blob/master/Merge%20Two%20Sorted%20Lists.js)                 | O(n)   | O(1)  | Easy       |      |
+| 0083 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [js](https://github.com/orifake/leetcode-js/blob/master/Merge%20Two%20Sorted%20Lists.js)                 | O(n)   | O(1)  | Easy       |      |
+| 0138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)           | [js](https://github.com/orifake/leetcode-js/blob/master/Copy%20List%20With%20Random%20Pointer.js)        | O(n)   | O(n)  | Medium     |
+| 0160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)     | [js](https://github.com/orifake/leetcode-python/blob/master/Intersection%20of%20Two%20Linked%20Lists.js) | O(m+n) | O(1)  | Easy       |      |
 
 
 ## Stack
