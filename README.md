@@ -99,6 +99,7 @@ Javascript solutions for Leetcode
 | 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)                               | [js](https://github.com/orifake/leetcode-js/blob/master/Reverse%20Linked%20List.js)                      | O(n)   | O(1)  | Easy       |              |
 | 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)                         | [js](https://github.com/orifake/leetcode-js/blob/master/Palindrome%20Linked%20List.js)                   | O(n)   | O(1)  | Easy       | Two Pointers |
 | 0237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)             | [js](https://github.com/orifake/leetcode-js/blob/master/Delete%20Node%20in%20a%20Linked%20List.js)       | O(1)   | O(1)  | Easy       |              |
+| 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                   | [js](https://github.com/orifake/leetcode-js/blob/master/Middle%20of%20the%20Linked%Linked.js)            | O(n)   | O(1)  | Easy       | Two Pointers |
 
 
 ## Stack
