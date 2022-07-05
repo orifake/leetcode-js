@@ -16,16 +16,15 @@
  * @return {boolean}
  */
 const hasCycle = function (head) {
-  if (!head) return false
-  if (!head.next) return false
-  let fast = head.next.next
-  let slow = head.next
-  while (fast !== slow) {
-    if (!fast || fast.next) {
-      return false
-    }
+  let fast = head
+  let slow = head
+  while (fast && fast.next) {
+    // 快慢指针相遇，说明含有环
     fast = fast.next.next
     slow = slow.next
+    if (slow === fast) {
+      return true;
+    }
   }
-  return true
+  return false
 };
