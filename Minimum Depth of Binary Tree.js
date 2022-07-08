@@ -1,35 +1,22 @@
 /**
  * Definition for a binary tree node.
- * function TreeNode(val) {
- *     this.val = val;
- *     this.left = this.right = null;
+ * function TreeNode(val, left, right) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.left = (left===undefined ? null : left)
+ *     this.right = (right===undefined ? null : right)
  * }
  */
 /**
- * @param {TreeNode} root
+ * @param {TreeNode} rootÏ
  * @return {number}
  */
-var minDepth = function(root) {
-    var min = 0;
-    var recursionDepth = function(node, depth) {
-        if (!node) {
-            return;
-        }
-        if (min && depth >= min) {
-            return;
-        }
-        if (!node.left && !node.right) {
-            min = depth;
-            return;
-        }
-
-        if (node.left) {
-            recursionDepth(node.left, depth + 1);
-        }
-        if (node.right) {
-            recursionDepth(node.right, depth + 1);
-        }
-    }
-    recursionDepth(root, 1);
-    return min;
+const minDepth = function (root) {
+  if (!root) return 0
+  if (!root.left && root.right) {
+    return minDepth(root.right) + 1
+  }
+  if (root.left && !root.right) {
+    return minDepth(root.left) + 1
+  }
+  return Math.min(minDepth(root.left), minDepth(root.right)) + 1
 };
