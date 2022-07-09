@@ -139,16 +139,16 @@ Javascript solutions for Leetcode
 
 
 ## Tree
-| #   | Title | Solution | Time | Space | Difficulty | Note |
-| --- | ----- | -------- | ---- | ----- | ---------- | ---- |
-
-| 0104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)                 | [js](https://github.com/orifake/leetcode-js/blob/master/Maximum%20Depth%20of%20Binary%20Tree.js)           | O(n) | O(1)  | Easy       | Depth-First Search   |
-| 0107 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)       | [js](https://github.com/orifake/leetcode-js/blob/master/Binary%20Tree%20Level%20Order%20Traversal.js)      | O(n) | O(n)  | Medium     | Breadth-First Search |
-| 0107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | [js](https://github.com/orifake/leetcode-js/blob/master/Binary%20Tree%20Level%20Order%20Traversal%20II.js) | O(n) | O(n)  | Medium     | Breadth-First Search |
-| 0110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)                                 | [js](https://github.com/orifake/leetcode-js/blob/master/Balanced%20Binary%20Tree.js)                       | O(n) | O(1)  | Easy       | Depth-First Search   |
-| 0111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)                 | [js](https://github.com/orifake/leetcode-js/blob/master/Minimum%20Depth%20of%20Binary%20Tree.js)           | O(n) | O(1)  | Easy       | Depth-First Search   |
-| 0112 | [Path Sum](https://leetcode.com/problems/path-sum/)                   | [js](https://github.com/orifake/leetcode-js/blob/master/Binary%20Tree%20Level%20Order%20Traversal%20II.js) | O(n)   | O(h)  | Easy       |   Depth-First Search   |
-| 0257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [js](https://github.com/orifake/leetcode-js/blob/master/Binary%20Tree%20Paths.js)                          | O(n*h) | O(h)  | Easy       |   Depth-First Search    |
+| #    | Title                                                                                                       | Solution                                                                                                   | Time   | Space | Difficulty | Note                 |
+| ---- | ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ------ | ----- | ---------- | -------------------- |
+| 0100 | [Same Tree](https://leetcode.com/problems/same-tree/)                                                       | [js](https://github.com/orifake/leetcode-js/blob/master/Same%20Tree.js)                                    | O(n)   | O(h)  | Easy       |                      |
+| 0104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)                 | [js](https://github.com/orifake/leetcode-js/blob/master/Maximum%20Depth%20of%20Binary%20Tree.js)           | O(n)   | O(1)  | Easy       | Depth-First Search   |
+| 0107 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)       | [js](https://github.com/orifake/leetcode-js/blob/master/Binary%20Tree%20Level%20Order%20Traversal.js)      | O(n)   | O(n)  | Medium     | Breadth-First Search |
+| 0107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | [js](https://github.com/orifake/leetcode-js/blob/master/Binary%20Tree%20Level%20Order%20Traversal%20II.js) | O(n)   | O(n)  | Medium     | Breadth-First Search |
+| 0110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)                                 | [js](https://github.com/orifake/leetcode-js/blob/master/Balanced%20Binary%20Tree.js)                       | O(n)   | O(1)  | Easy       | Depth-First Search   |
+| 0111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)                 | [js](https://github.com/orifake/leetcode-js/blob/master/Minimum%20Depth%20of%20Binary%20Tree.js)           | O(n)   | O(1)  | Easy       | Depth-First Search   |
+| 0112 | [Path Sum](https://leetcode.com/problems/path-sum/)                                                         | [js](https://github.com/orifake/leetcode-js/blob/master/Binary%20Tree%20Level%20Order%20Traversal%20II.js) | O(n)   | O(h)  | Easy       | Depth-First Search   |
+| 0257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)                                       | [js](https://github.com/orifake/leetcode-js/blob/master/Binary%20Tree%20Paths.js)                          | O(n*h) | O(h)  | Easy       | Depth-First Search   |
 
 ## Hash Table
 | #    | Title                                                                                                                           | Solution                                                                                                           | Time | Space | Difficulty | Note           |
