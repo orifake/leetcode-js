@@ -3,17 +3,16 @@
  * @param {number[]} nums2
  * @return {number[]}
  */
-var intersection = function(nums1, nums2) {
-	var i, len = nums2.length;
-	var result = [];
-	if (nums1.length === 0 || nums2.length === 0) {
-		return []
-	}
+const intersection = function (nums1, nums2) {
+	let result = [];
+	let setNum1 = new Set(nums1);
+	let setNum2 = new Set(nums2);
 
-	for (i = 0; i < len; i++) {
-		if (nums1.indexOf(nums2[i]) > -1 && result.indexOf(nums2[i]) === -1) {
-			result.push(nums2[i])
-		}
-	}
-	return result
+	let [smallSet, largeSet] = (setNum1.length < setNum2.length) ? [setNum1, setNum2] : [setNum2, setNum1];
+
+	smallSet.forEach(num => {
+		largeSet.has(num) && result.push(num);
+	});
+
+	return result;
 };
