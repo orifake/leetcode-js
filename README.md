@@ -197,9 +197,9 @@ Javascript solutions for Leetcode
 | --- | ----- | -------- | ---- | ----- | ---------- | ---- |
 
 ## Binary Search
-| #   | Title | Solution | Time | Space | Difficulty | Note |
-| --- | ----- | -------- | ---- | ----- | ---------- | ---- |
-
+| #    | Title                                           | Solution                                                            | Time    | Space | Difficulty | Note |
+| ---- | ----------------------------------------------- | ------------------------------------------------------------------- | ------- | ----- | ---------- | ---- |
+| 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [js](https://github.com/orifake/leetcode-js/blob/master/Sqrt(x).js) | O(logn) | O(1)  | Easy       |      |
 
 ## Binary Search Tree
 | #   | Title | Solution | Time | Space | Difficulty | Note |
