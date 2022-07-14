@@ -189,8 +189,8 @@ Javascript solutions for Leetcode
 | --- | ----- | -------- | ---- | ----- | ---------- | ---- |
 
 ## Two Pointers
-| #    | Title                                                                                          | Solution                                                                                          | Time     | Space | Difficulty | Note |
-| ---- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | -------- | ----- | ---------- | ---- |
+| #    | Title                                                                                         | Solution                                                                                          | Time     | Space | Difficulty | Note |
+| ---- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | -------- | ----- | ---------- | ---- |
 | 0350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [js](https://github.com/orifake/leetcode-js/blob/master/Intersection%20of%20Two%20Arrays%20II.js) | O(m + n) | O(1)  | Easy       |      |
 
 ## Recursion
@@ -204,6 +204,8 @@ Javascript solutions for Leetcode
 | 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/)                                 | [js](https://github.com/orifake/leetcode-js/blob/master/Sqrt(x).js)                    | O(logn) | O(1)  | Easy       |      |
 | 0162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/)           | [js](https://github.com/orifake/leetcode-js/blob/master/Find%20Peak%20Element.js)      | O(logn) | O(1)  | Easy       |      |
 | 0278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/)           | [js](https://github.com/orifake/leetcode-js/blob/master/First%20Bad%20Version.js)      | O(logn) | O(1)  | Easy       |      |
+| 0367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)     | [js](https://github.com/orifake/leetcode-js/blob/master/Valid%20Perfect%20Square.js)   | O(logn) | O(1)  | Easy       |      |
+
 ## Binary Search Tree
 | #   | Title | Solution | Time | Space | Difficulty | Note |
 | --- | ----- | -------- | ---- | ----- | ---------- | ---- |
