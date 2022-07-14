@@ -198,13 +198,14 @@ Javascript solutions for Leetcode
 | --- | ----- | -------- | ---- | ----- | ---------- | ---- |
 
 ## Binary Search
-| #    | Title                                                                           | Solution                                                                               | Time    | Space | Difficulty | Note |
-| ---- | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ------- | ----- | ---------- | ---- |
-| 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [js](https://github.com/orifake/leetcode-js/blob/master/Search%20Insert%20Position.js) | O(logn) | O(1)  | Easy       |      |
-| 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/)                                 | [js](https://github.com/orifake/leetcode-js/blob/master/Sqrt(x).js)                    | O(logn) | O(1)  | Easy       |      |
-| 0162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/)           | [js](https://github.com/orifake/leetcode-js/blob/master/Find%20Peak%20Element.js)      | O(logn) | O(1)  | Easy       |      |
-| 0278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/)           | [js](https://github.com/orifake/leetcode-js/blob/master/First%20Bad%20Version.js)      | O(logn) | O(1)  | Easy       |      |
-| 0367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)     | [js](https://github.com/orifake/leetcode-js/blob/master/Valid%20Perfect%20Square.js)   | O(logn) | O(1)  | Easy       |      |
+| #    | Title                                                                                       | Solution                                                                                         | Time    | Space | Difficulty | Note |
+| ---- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------- | ----- | ---------- | ---- |
+| 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/)             | [js](https://github.com/orifake/leetcode-js/blob/master/Search%20Insert%20Position.js)           | O(logn) | O(1)  | Easy       |      |
+| 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/)                                             | [js](https://github.com/orifake/leetcode-js/blob/master/Sqrt(x).js)                              | O(logn) | O(1)  | Easy       |      |
+| 0162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/)                       | [js](https://github.com/orifake/leetcode-js/blob/master/Find%20Peak%20Element.js)                | O(logn) | O(1)  | Easy       |      |
+| 0278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/)                       | [js](https://github.com/orifake/leetcode-js/blob/master/First%20Bad%20Version.js)                | O(logn) | O(1)  | Easy       |      |
+| 0367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)                 | [js](https://github.com/orifake/leetcode-js/blob/master/Valid%20Perfect%20Square.js)             | O(logn) | O(1)  | Easy       |      |
+| 0374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [js](https://github.com/orifake/leetcode-js/blob/master/Guess%20Number%20Higher%20or%20Lower.js) | O(logn) | O(1)  | Easy       |      |
 
 ## Binary Search Tree
 | #   | Title | Solution | Time | Space | Difficulty | Note |
