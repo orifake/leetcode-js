@@ -206,6 +206,7 @@ Javascript solutions for Leetcode
 | 0278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/)                       | [js](https://github.com/orifake/leetcode-js/blob/master/First%20Bad%20Version.js)                | O(logn) | O(1)  | Easy       |      |
 | 0367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)                 | [js](https://github.com/orifake/leetcode-js/blob/master/Valid%20Perfect%20Square.js)             | O(logn) | O(1)  | Easy       |      |
 | 0374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [js](https://github.com/orifake/leetcode-js/blob/master/Guess%20Number%20Higher%20or%20Lower.js) | O(logn) | O(1)  | Easy       |      |
+| 0704 | [Binary Search](https://leetcode.com/problems/binary-search/)                               | [js](https://github.com/orifake/leetcode-js/blob/master/Binary%20Search.js)                      | O(logn) | O(1)  | Easy       |      |
 
 ## Binary Search Tree
 | #   | Title | Solution | Time | Space | Difficulty | Note |
