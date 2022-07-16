@@ -2,7 +2,7 @@
  * @param {number} n
  * @return {number}
  */
-var climbStairs = function(n) {
+const climbStairs = function (n) {
     let a = [];
     a[0] = 1, a[1] = 1;
     for (let i = 2; i <= n; i++)
