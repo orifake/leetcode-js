@@ -239,6 +239,7 @@ Javascript solutions for Leetcode
 | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [js](https://github.com/orifake/leetcode-js/blob/master/Best%20Time%20to%20Buy%20and%20Sell%20Stock.js) | O(n)   | O(1)  | Easy       |      |
 | 0300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)   | [js](https://github.com/orifake/leetcode-js/blob/master/Longest%20Increasing%20Subsequence.js)          | O(n^2) | O(n)  | Easy       |      |
 | 0509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)                               | [js](https://github.com/orifake/leetcode-js/blob/master/Fibonacci%20Number.js)                          | O(n)   | O(1)  | Easy       |      |
+| 0746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)               | [js](https://github.com/orifake/leetcode-js/blob/master/Min%20Cost%20Climbing%20Staris.js)              | O(n)   | O(1)  | Easy       |      |
 
 
 ## Greedy
