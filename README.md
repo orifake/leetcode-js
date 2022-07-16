@@ -242,6 +242,7 @@ Javascript solutions for Leetcode
 | 0300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)   | [js](https://github.com/orifake/leetcode-js/blob/master/Longest%20Increasing%20Subsequence.js)          | O(n^2) | O(n)  | Easy       |      |
 | 0509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)                               | [js](https://github.com/orifake/leetcode-js/blob/master/Fibonacci%20Number.js)                          | O(n)   | O(1)  | Easy       |      |
 | 0746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)               | [js](https://github.com/orifake/leetcode-js/blob/master/Min%20Cost%20Climbing%20Staris.js)              | O(n)   | O(1)  | Easy       |      |
+| 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)                   | [js](https://github.com/orifake/leetcode-js/blob/master/N-th%20Tribonacci%20Number.js)                  | O(n)   | O(1)  | Easy       |      |
 
 
 ## Greedy
