@@ -9,9 +9,7 @@
  * @return {number[][]}
  */
 const generate = function (numRows) {
-	let result = numRows > 0 ? [
-		[1]
-	] : [];
+	let result = numRows > 0 ? [[1]] : [];
 	for (let i = 1; i < numRows; i++) {
 		result[i] = [];
 		for (let j = 0; j <= i; j++) {
