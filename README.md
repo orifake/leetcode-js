@@ -185,6 +185,8 @@ Javascript solutions for Leetcode
 | 0258 | [Add Digits](https://leetcode.com/problems/add-digits/)           | [js](https://github.com/orifake/leetcode-js/blob/master/Add%20Digits.js)      | O(1)   | O(1)  | Easy       |      |
 | 0268 | [Missing Number](https://leetcode.com/problems/missing-number/)   | [js](https://github.com/orifake/leetcode-js/blob/master/Missing%20Number.js)  | O(n)   | O(1)  | Easy       |      |
 | 0441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | [js](https://github.com/orifake/leetcode-js/blob/master/Arranging%20Coins.js) | O(n)	) | O(1)  | Easy       |      |
+| 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/)       | [js](https://github.com/orifake/leetcode-js/blob/master/Divisor%20Game.js)    | O(1)	) | O(1)  | Easy       |      |
+
 ## Sort
 | #   | Title | Solution | Time | Space | Difficulty | Note |
 | --- | ----- | -------- | ---- | ----- | ---------- | ---- |
