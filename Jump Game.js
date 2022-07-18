@@ -2,19 +2,11 @@
  * @param {number[]} nums
  * @return {boolean}
  */
-var canJump = function(nums) {
-	 var len = nums.length,
-        cover = 0,
-        i;
-    
-    for(i = 0; i < len; i++) {
-        if (cover >= i) {
-            cover = Math.max(cover, nums[i] + i);
-            if (cover >= len - 1) {
-                return true;
-            }
-        } else {
-            return false;
-        }
-    }
-};
+const canJump = function (nums) {
+  let cover = 0
+  for (let i = 0; i <= nums.length - 1; i++) {
+    if (i > cover) return false
+    cover = Math.max(cover, nums[i] + i)
+  }
+  return true
+}
