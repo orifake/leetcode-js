@@ -1,4 +1,9 @@
 /**
+ *  Time: O(n)
+ *  Space: O(h)
+ */
+
+/**
  * Definition for a binary tree node.
  * function TreeNode(val, left, right) {
  *     this.val = (val===undefined ? 0 : val)
@@ -11,13 +16,13 @@
  * @return {number[]}
  */
 const postorderTraversal = function (root) {
-  const ans = []
+  const result = []
   const traverse = function (node) {
     if (!node) return
     traverse(node.left);
     traverse(node.right);
-    ans.push(node.val);
+    result.push(node.val);
   }
   traverse(root)
-  return ans
+  return result
 };
