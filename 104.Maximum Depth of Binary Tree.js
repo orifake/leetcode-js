@@ -1,4 +1,9 @@
 /**
+ *  Time: O(n)
+ *  Space: O(n)
+ */
+
+/**
  * Definition for a binary tree node.
  * function TreeNode(val, left, right) {
  *     this.val = (val===undefined ? 0 : val)
@@ -12,6 +17,6 @@
  */
 
 const maxDepth = function (root) {
-	if (!root) return 0
-	return 1 + Math.max(maxDepth(root.left), maxDepth(root.right))
+  if (!root) return 0
+  return 1 + Math.max(maxDepth(root.left), maxDepth(root.right))
 };
