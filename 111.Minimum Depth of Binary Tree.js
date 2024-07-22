@@ -12,7 +12,7 @@
  * }
  */
 /**
- * @param {TreeNode} rootÏ
+ * @param {TreeNode} root
  * @return {number}
  */
 const minDepth = function (root) {
