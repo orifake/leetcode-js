@@ -11,14 +11,14 @@
  * @return {number[]}
  */
 const preorder = function (root) {
-  const ans = []
+  const result = []
   const traverse = function (node) {
     if (!node) return
-    ans.push(node.val);
-    node.children.forEach(n => {
-      traverse(n)
+    result.push(node.val);
+    node.children.forEach((child) => {
+      traverse(child)
     });
   }
   traverse(root)
-  return ans
+  return result
 };
