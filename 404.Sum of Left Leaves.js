@@ -11,12 +11,12 @@
  * @return {number}
  */
 const sumOfLeftLeaves = function (root) {
-  let ans = 0
+  let result = 0
   if (!root) return ans
   if (root.left && isLeaf(root.left)) {
-    ans += root.left.val
+    result += root.left.val
   }
-  return ans + sumOfLeftLeaves(root.left) + sumOfLeftLeaves(root.right)
+  return result + sumOfLeftLeaves(root.left) + sumOfLeftLeaves(root.right)
 };
 
 const isLeaf = function (node) {
