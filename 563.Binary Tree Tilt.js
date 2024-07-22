@@ -11,14 +11,14 @@
  * @return {number}
  */
 const findTilt = function (root) {
-  let ans = 0
+  let result = 0
   const subTreeSum = function (node) {
     if (!node) return 0
     let lsum = subTreeSum(node.left)
     let rsum = subTreeSum(node.right)
-    ans += Math.abs(lsum - rsum)
+    result += Math.abs(lsum - rsum)
     return node.val + lsum + rsum
   }
   subTreeSum(root)
-  return ans
+  return result
 };
