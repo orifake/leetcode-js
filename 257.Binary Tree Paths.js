@@ -11,7 +11,7 @@
  */
 const binaryTreePaths = function (root) {
   let result = [];
-  getPath(root, "", result);
+  getPath(root, '', result);
   return result;
 };
 
