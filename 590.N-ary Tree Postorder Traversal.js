@@ -11,14 +11,14 @@
  * @return {number[]}
  */
 const postorder = function (root) {
-  const ans = []
+  const result = []
   const traverse = function (node) {
     if (!node) return
-    node.children.forEach(n => {
-      traverse(n)
+    node.children.forEach((child) => {
+      traverse(child)
     });
-    ans.push(node.val);
+    result.push(node.val);
   }
   traverse(root)
-  return ans
+  return result
 };
