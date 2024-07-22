@@ -19,10 +19,10 @@ const findMode = function (root) {
     inOrder(node.right)
   }
   inOrder(root)
-  const ans = []
+  const result = []
   const freq = Math.max(...Object.values(count))
   for (const [key, value] of Object.entries(count)) {
-    (value === freq) && ans.push(key)
+    (value === freq) && result.push(key)
   }
-  return ans
+  return result
 };
