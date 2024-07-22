@@ -13,21 +13,20 @@
 const levelOrder = function (root) {
   if (!root) return [];
   let queue = [root];
-  let temp = [];
   let result = [];
-  let level_node = [];
   while (queue.length) {
-    const elem = queue.shift();
-    elem.children.forEach((node) => {
-      temp.push(node)
-    })
-    level_node.push(elem.val);
-    if (queue.length === 0) {
-      result.push(level_node)
-      level_node = []
-      queue = temp
-      temp = []
+    let levelSize = queue.length;
+    let levelList = [];
+
+    for (let i = 0; i < levelSize; i++) {
+      let node = queue.shift();
+      levelList.push(node.val);
+      node.children.forEach((child) => {
+        queue.push(child)
+      })
     }
+
+    result.push(levelList);
   }
   return result;
 };
