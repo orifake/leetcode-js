@@ -22,13 +22,13 @@ const isSubtree = function (root, subRoot) {
 
 const isSameTree = function (p, q) {
   // 判断一对节点是否相同
-  if (p == null && q == null) {
+  if (p === null && q === null) {
     return true;
   }
-  if (p == null || q == null) {
+  if (p === null || q === null) {
     return false;
   }
-  if (p.val != q.val) {
+  if (p.val !== q.val) {
     return false;
   }
   // 判断其他节点是否相同
