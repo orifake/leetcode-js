@@ -12,16 +12,16 @@
  */
 const getMinimumDifference = function (root) {
   let prev = null
-  let ans = Infinity
+  let result = Infinity
   const inOrder = function (node) {
     if (!node) return
     inOrder(node.left)
     if (prev) {
-      ans = Math.min(ans, node.val - prev.val)
+      result = Math.min(ans, node.val - prev.val)
     }
     prev = node
     inOrder(node.right)
   }
   inOrder(root)
-  return ans
+  return result
 };
