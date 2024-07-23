@@ -9,10 +9,10 @@
  * @return {number}
  */
 const hammingWeight = function(n) {
-    let ans = 0;
+    let result = 0;
     while (n) {
-        if (n & 1) ans++;
+        if (n & 1) result++;
         n /= 2;
     }
-    return ans;
+    return result;
 };
