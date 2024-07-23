@@ -3,19 +3,19 @@
  * @return {string[]}
  */
 const fizzBuzz = function (n) {
-  const ans = []
+  const result = []
   for (let i = 1; i <= n; i++) {
     if (i % 15 === 0) {
-      ans.push("FizzBuzz")
+      result.push("FizzBuzz")
     } else if (i % 5 === 0) {
-      ans.push("Buzz")
+      result.push("Buzz")
     } else if (i % 3 === 0) {
-      ans.push("Fizz")
+      result.push("Fizz")
     } else {
-      ans.push(String(i))
+      result.push(String(i))
     }
   }
-  return ans
+  return result
 };
 
 console.log(fizzBuzz(5))
