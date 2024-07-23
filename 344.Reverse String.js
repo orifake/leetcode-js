@@ -7,10 +7,8 @@ const reverseString = function (s) {
   let right = s.length - 1
   while (left < right) {
     // 交换 s[left] 和 s[right]
-    let temp = s[left];
-    s[left] = s[right];
-    s[right] = temp;
-    left++;
-    right--;
+    [s[left], s[right]] = [s[right], s[left]]
+    left++
+    right--
   }
 };
