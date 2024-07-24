@@ -201,7 +201,7 @@ Javascript solutions for Leetcode
 | ---- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | -------- | ----- | ---------- | ---- |
 | 0005 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [js](https://github.com/orifake/leetcode-js/blob/master/5.Longest%20Palindromic%20Substring.js) | O(n) | O(1)  | Easy       |  Two Pointers    |
 | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [js](https://github.com/orifake/leetcode-js/blob/master/125.Valid%20Palindrome.js) | O(n) | O(1)  | Easy       |      |
-| 0350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [js](https://github.com/orifake/leetcode-js/blob/master/Intersection%20of%20Two%20Arrays%20II.js) | O(m + n) | O(1)  | Easy       |      |
+| 0350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [js](https://github.com/orifake/leetcode-js/blob/master/350.Intersection%20of%20Two%20Arrays%20II.js) | O(m + n) | O(1)  | Easy       |      |
 | 0392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence)                                | [js](https://github.com/orifake/leetcode-js/blob/master/Is%20Subsequence.js)                      | O(n)     | O(1)  | Easy       |      |
 
 ## Recursion
