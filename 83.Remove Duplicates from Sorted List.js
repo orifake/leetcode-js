@@ -10,14 +10,15 @@
  * @return {ListNode}
  */
 const deleteDuplicates = function (head) {
-  let curr = head
-  while (curr) {
-    let runner = curr.next
-    while (runner && curr.val === runner.val) {
-      runner = runner.next
+  let slow = head
+  while (slow) {
+    let fast = slow.next
+    while (fast && fast.val === slow.val) {
+      fast = fast.next
     }
-    curr.next = runner
-    curr = runner
+    // 删除重复节点
+    slow.next = fast
+    slow = fast
   }
   return head
 };
