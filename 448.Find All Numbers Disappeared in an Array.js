@@ -8,11 +8,11 @@ const findDisappearedNumbers = function (nums) {
     nums[temp] > 0 && (nums[temp] *= -1)
   }
 
-  let ans = []
+  let result = []
   for (let j = 0; j < nums.length; j++) {
-    nums[j] > 0 && ans.push(j + 1)
+    nums[j] > 0 && result.push(j + 1)
   }
-  return ans
+  return result
 };
 
 console.log(findDisappearedNumbers([4, 3, 2, 7, 8, 2, 3, 1]))

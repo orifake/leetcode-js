@@ -8,9 +8,9 @@ const matrixReshape = function (mat, r, c) {
   let arr = mat.flat()
   if (r * c != arr.length) return mat
 
-  let ans = []
+  let result = []
   while (arr.length) {
-    ans.push(arr.splice(0, c))
+    result.push(arr.splice(0, c))
   };
-  return ans
+  return result
 };

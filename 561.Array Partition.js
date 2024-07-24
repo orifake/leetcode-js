@@ -4,11 +4,11 @@
  */
 const arrayPairSum = function (nums) {
   nums = nums.sort((a, b) => a - b)
-  let ans = 0
+  let result = 0
   for (let i = 0; i < nums.length; i += 2) {
-    ans += nums[i]
+    result += nums[i]
   }
-  return ans
+  return result
 };
 
 console.log(arrayPairSum([6214, -2290, 2833, -7908]))

@@ -4,10 +4,10 @@
  */
 const findWords = function (words) {
   const keyboard = 'qwertyuiopasdfghjklzxcvbnm'
-  let ans = []
+  let result = []
   for (let word of words) {
     if (word.length === 1) {
-      ans.push(word)
+      result.push(word)
       continue
     }
     let prev = -1
@@ -28,11 +28,11 @@ const findWords = function (words) {
       } else if (prev !== curr) {
         break
       } else if (i === word.length - 1) {
-        ans.push(word)
+        result.push(word)
       }
     }
   }
-  return ans
+  return result
 };
 
 console.log(findWords(["Hello", "Alaska", "Dad", "Peace"]))
