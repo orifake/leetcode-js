@@ -12,16 +12,17 @@
  */
 const removeNthFromEnd = function (head, n) {
 	if (head.next == null) return null;
-	let pre = head
-	let curr = head
+	let slow = head
+	let fast = head
 	for (let i = 0; i < n; i++) {
-		curr = curr.next
+		fast = fast.next
 	}
-	if (!curr) return pre.next
-	while (curr.next) {
-		curr = curr.next
-		pre = pre.next
+	if (!fast) return slow.next
+	while (fast.next) {
+		fast = fast.next
+		slow = slow.next
 	}
-	pre.next = pre.next.next;
+	// 删除节点
+	slow.next = slow.next.next;
 	return head;
 };
