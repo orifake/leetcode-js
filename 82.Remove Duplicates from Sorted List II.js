@@ -12,16 +12,16 @@
 const deleteDuplicates = function (head) {
   const dummy = new ListNode()
   dummy.next = head
-  let node = dummy
-  while (node.next) {
-    if (node.next.next && node.next.val === node.next.next.val) {
-      let nonValNode = node.next.next.next
-      while (nonValNode && nonValNode.val === node.next.val) {
-        nonValNode = nonValNode.next
+  let slow = dummy
+  while (slow.next) {
+    if (slow.next.next && slow.next.val === slow.next.next.val) {
+      let fast = slow.next.next.next
+      while (fast && fast.val === fast.next.val) {
+        fast = fast.next
       }
-      node.next = nonValNode
+      slow.next = fast
     } else {
-      node = node.next
+      slow = slow.next
     }
   }
   return dummy.next
