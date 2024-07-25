@@ -3,8 +3,8 @@
  * @return {string}
  */
 const removeOuterParentheses = function (s) {
-  let ans = ''
-  let prev_i = 0
+  let result = ''
+  let prev = 0
   let count = 0
   for (let i = 0; i < s.length; i++) {
     if (s[i] === '(') {
@@ -13,9 +13,9 @@ const removeOuterParentheses = function (s) {
       count -= 1
     }
     if (count === 0) {
-      ans += s.slice(prev_i + 1, i)
-      prev_i = i + 1
+      result += s.slice(prev + 1, i)
+      prev = i + 1
     }
   }
-  return ans
+  return result
 };
