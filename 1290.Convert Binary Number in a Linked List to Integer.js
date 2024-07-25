@@ -10,10 +10,10 @@
  * @return {number}
  */
 const getDecimalValue = function (head) {
-  let ans = head.val
+  let result = head.val
   while (head.next) {
-    ans = ans * 2 + head.next.val
+    result = result * 2 + head.next.val
     head = head.next
   }
-  return ans
+  return result
 };
