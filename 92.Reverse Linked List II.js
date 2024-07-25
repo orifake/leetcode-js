@@ -12,26 +12,26 @@
  * @return {ListNode}
  */
 const reverseBetween = function (head, left, right) {
-  let current = head, start = head, position = 1;
+  let curr = head, start = head, position = 1;
 
   while (position < left) {
-    start = current
-    current = current.next;
+    start = curr
+    curr = curr.next;
     position++;
   }
 
-  let reversedList = null, tail = current;
+  let prev = null, tail = curr;
 
   while (position >= left && position <= right) {
     const next = current.next;
-    current.next = reversedList;
-    reversedList = current;
-    current = next;
+    curr.next = prev;
+    prev = curr;
+    curr = next;
     position++
   }
 
-  start.next = reversedList;
-  tail.next = current;
+  start.next = prev;
+  tail.next = curr;
 
-  return left > 1 ? head : reversedList
+  return left > 1 ? head : prev
 };
