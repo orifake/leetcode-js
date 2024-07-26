@@ -128,7 +128,7 @@ Javascript solutions for Leetcode
 | 01544 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/)                                                           | [js](https://github.com/orifake/leetcode-js/blob/master/1544.Make%20The%20String%20Great.js)                                            | O(n) | O(n)  | Easy       |      |
 | 01598 | [Crawler Log Folder](https://leetcode.com/problems/crawler-log-folder/)                                                                 | [js](https://github.com/orifake/leetcode-js/blob/master/1598.%20Log%20Folder.js)                                                 | O(n) | O(1)  | Easy       |      |
 | 01614 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/)                     | [js](https://github.com/orifake/leetcode-js/blob/master/1614.Maximum%20Nesting%20Depth%20of%20the%20Parentheses.js)                     | O(n) | O(1)  | Easy       |      |
-| 01700 | [Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/)                         | [js](https://github.com/orifake/leetcode-js/blob/master/Number%20of%20Students%20Unable%20to%20Eat%20Lunch.js)                     | O(n) | O(1)  | Easy       |      |
+| 01700 | [Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/)                         | [js](https://github.com/orifake/leetcode-js/blob/master/1700.Number%20of%20Students%20Unable%20to%20Eat%20Lunch.js)                     | O(n) | O(1)  | Easy       |      |
 
 
 ## Queue
