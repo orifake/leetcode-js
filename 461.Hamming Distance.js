@@ -5,10 +5,10 @@
  */
 const hammingDistance = function (x, y) {
   let z = x ^ y;
-  let ans = 0;
+  let result = 0;
   while (z) {
-    if (z & 1) ans++;
+    if (z & 1) result++;
     z /= 2;
   }
-  return ans;
+  return result;
 };
