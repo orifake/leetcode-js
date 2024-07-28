@@ -88,7 +88,7 @@ Javascript solutions for Leetcode
 |      |
 | 0551 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)       | [js](https://github.com/orifake/leetcode-js/blob/master/551.Student%20Attendance%20Record%20I.js)       | O(n）        | O(1)   | Easy       |              |
 |      |
-| 0557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)   | [js](https://github.com/orifake/leetcode-js/blob/master/Reverse%20Words%20in%20a%20String%20III.js) | O(n）        | O(n)   | Easy       |              |
+| 0557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)   | [js](https://github.com/orifake/leetcode-js/blob/master/557.Reverse%20Words%20in%20a%20String%20III.js) | O(n）        | O(n)   | Easy       |              |
 
 ## Linked List
 | #    | Title                                                                                                                                 | Solution                                                                                                                                    | Time     | Space   | Difficulty | Note         |
