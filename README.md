@@ -81,12 +81,12 @@ Javascript solutions for Leetcode
 | 0434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/) | [js](https://github.com/orifake/leetcode-js/blob/master/434.Add%20Strings.js)                       | O(n)         | O(1)   | Easy       |              |
 | 0459 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)         | [js](https://github.com/orifake/leetcode-js/blob/master/459.Repeated%20Substring%20Pattern.js)      | O(n)         | O(n)   | Easy       |              |
 | 0482 | [License Key Formatting](https://leetcode.com/problems/license-key-formatting/)                 | [js](https://github.com/orifake/leetcode-js/blob/master/482.License%20Key%20Formatting.js)              | O(n)         | O(1)   | Easy       |              |
-| 0520 | [Detect Capital](https://leetcode.com/problems/detect-capital/)                                 | [js](https://github.com/orifake/leetcode-js/blob/master/Detect%20Capital.js)                        | O(n)         | O(1)   | Easy       |              |
+| 0520 | [Detect Capital](https://leetcode.com/problems/detect-capital/)                                 | [js](https://github.com/orifake/leetcode-js/blob/master/520.Detect%20Capital.js)                        | O(n)         | O(1)   | Easy       |              |
 | 0521 | [Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/) | [js](https://github.com/orifake/leetcode-js/blob/master/Longest%20Uncommon%20Subsequence%20I.js)    | O(min(a, b)) | O(1)   | Easy       |              |
 |      |
 | 0541 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii/)                           | [js](https://github.com/orifake/leetcode-js/blob/master/Reverse%20String%20II.js)                   | O(n）        | O(1)   | Easy       |              |
 |      |
-| 0551 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)       | [js](https://github.com/orifake/leetcode-js/blob/master/Student%20Attendance%20Record%20I.js)       | O(n）        | O(1)   | Easy       |              |
+| 0551 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)       | [js](https://github.com/orifake/leetcode-js/blob/master/551.Student%20Attendance%20Record%20I.js)       | O(n）        | O(1)   | Easy       |              |
 |      |
 | 0557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)   | [js](https://github.com/orifake/leetcode-js/blob/master/Reverse%20Words%20in%20a%20String%20III.js) | O(n）        | O(n)   | Easy       |              |
 
