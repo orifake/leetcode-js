@@ -3,6 +3,8 @@
  * @param {number} target
  * @return {number}
  */
+
+// [left, right]
 const search = function (nums, target) {
   let left = 0
   let right = nums.length - 1

@@ -223,7 +223,7 @@ Javascript solutions for Leetcode
 | 0367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)                                         | [js](https://github.com/orifake/leetcode-js/blob/master/Valid%20Perfect%20Square.js)                           | O(logn)  | O(1)  | Easy       |      |
 | 0374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)                         | [js](https://github.com/orifake/leetcode-js/blob/master/Guess%20Number%20Higher%20or%20Lower.js)               | O(logn)  | O(1)  | Easy       |      |
 | 0475 | [Heaters](https://leetcode.com/problems/heaters/)                                                                   | [js](https://github.com/orifake/leetcode-js/blob/master/Heaters.js)                                            | O(nlogn) | O(1)  | Easy       |      |
-| 0704 | [Binary Search](https://leetcode.com/problems/binary-search/)                                                       | [js](https://github.com/orifake/leetcode-js/blob/master/Binary%20Search.js)                                    | O(logn)  | O(1)  | Easy       |      |
+| 0704 | [Binary Search](https://leetcode.com/problems/binary-search/)                                                       | [js](https://github.com/orifake/leetcode-js/blob/master/704.Binary%20Search.js)                                    | O(logn)  | O(1)  | Easy       |      |
 | 0744 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | [js](https://github.com/orifake/leetcode-js/blob/master/Find%20Smallest%20Letter%20Greater%20Than%20Target.js) | O(logn)  | O(1)  | Easy       |      |
 
 ## Binary Search Tree
