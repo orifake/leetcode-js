@@ -4,15 +4,15 @@
  * @return {string}
  */
 const licenseKeyFormatting = function (s, k) {
-  const ans = []
+  const result = []
   for (let i = s.length - 1; i >= 0; i--) {
     if (s[i] === '-') continue
-    if ((ans.length) % (k + 1) == k) {
-      ans.push('-')
+    if ((result.length) % (k + 1) == k) {
+      result.push('-')
     }
-    ans.push(s[i].toUpperCase())
+    result.push(s[i].toUpperCase())
   }
-  return ans.reverse().join('')
+  return result.reverse().join('')
 };
 
 console.log(licenseKeyFormatting("2-5g-3-J", 2))
