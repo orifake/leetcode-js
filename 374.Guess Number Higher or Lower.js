@@ -15,7 +15,7 @@ const guessNumber = function (n) {
   let low = 1
   let high = n
   while (low <= high) {
-    let mid = parseInt((low + high) / 2)
+    let mid = low + parseInt((high - low) / 2)
     let result = guess(mid)
     if (result === -1) {
       high = mid - 1
