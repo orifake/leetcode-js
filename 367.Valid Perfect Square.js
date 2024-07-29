@@ -3,14 +3,14 @@
  * @return {boolean}
  */
 const isPerfectSquare = function (num) {
-  let low = 0
-  let high = num
-  while (low <= high) {
-    let mid = parseInt((low + high) / 2)
+  let start = 0
+  let end = num
+  while (start <= end) {
+    let mid = parseInt(start + (end - start) / 2)
     if (mid * mid < num) {
-      low = mid + 1
+      start = mid + 1
     } else if (mid * mid > num) {
-      high = mid - 1
+      end = mid - 1
     } else {
       return true
     }
