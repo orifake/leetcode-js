@@ -187,7 +187,7 @@ Javascript solutions for Leetcode
 | 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)                                         | [js](https://github.com/orifake/leetcode-js/blob/master/349.Intersection%20of%20Two%20Arrays.js)                       | O(n) | O(n)) | Easy       |                |
 | 0387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)                         | [js](https://github.com/orifake/leetcode-js/blob/master/387.First%20Unique%20Character%20in%20a%20String.js)           | O(n) | O(1)  | Easy       |                |
 | 0409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)                                                         | [js](https://github.com/orifake/leetcode-js/blob/master/409.sLongest%20Palindrome.js)                                   | O(n) | O(1)  | Easy       |                |
-| 0575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies)                                                          | [js](https://github.com/orifake/leetcode-js/blob/master/Distribute%20Candies.js)                                   | O(n) | O(n)  | Easy       |                |
+| 0575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies)                                                          | [js](https://github.com/orifake/leetcode-js/blob/master/575.Distribute%20Candies.js)                                   | O(n) | O(n)  | Easy       |                |
 
 ## Math
 | #    | Title                                                             | Solution                                                                         | Time   | Space | Difficulty | Note |

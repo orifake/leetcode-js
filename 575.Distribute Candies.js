@@ -4,7 +4,7 @@
  */
 const distributeCandies = function (candyType) {
   const kinds = (new Set(candyType)).size
-  const nums = ~~(candyType.length / 2)
+  const nums = parseInt(candyType.length / 2)
   return (kinds < nums) ? kinds : nums
 };
 
