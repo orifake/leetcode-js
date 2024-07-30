@@ -190,14 +190,15 @@ Javascript solutions for Leetcode
 | 0575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies)                                                          | [js](https://github.com/orifake/leetcode-js/blob/master/575.Distribute%20Candies.js)                                 | O(n) | O(n)  | Easy       |                |
 
 ## Math
-| #    | Title                                                             | Solution                                                                          | Time   | Space | Difficulty | Note     |
-| ---- | ----------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------ | ----- | ---------- | -------- |
-| 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [js](https://github.com/orifake/leetcode-js/blob/master/7.Reverse%20Integer.js)   | O(n)   | O(1)  | Medium     |          |
-| 0202 | [Happy Number](https://leetcode.com/problems/happy-number/)       | [js](https://github.com/orifake/leetcode-js/blob/master/202.Happy%20Number.js)    | O(n)   | O(1)  | Easy       | Hash Map |
-| 0258 | [Add Digits](https://leetcode.com/problems/add-digits/)           | [js](https://github.com/orifake/leetcode-js/blob/master/258.Add%20Digits.js)      | O(1)   | O(1)  | Easy       |          |
-| 0268 | [Missing Number](https://leetcode.com/problems/missing-number/)   | [js](https://github.com/orifake/leetcode-js/blob/master/268.Missing%20Number.js)  | O(n)   | O(1)  | Easy       |          |
-| 0441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | [js](https://github.com/orifake/leetcode-js/blob/master/441.Arranging%20Coins.js) | O(n)	) | O(1)  | Easy       |          |
-| 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/)       | [js](https://github.com/orifake/leetcode-js/blob/master/1025.Divisor%20Game.js)   | O(1)	) | O(1)  | Easy       |          |
+| #    | Title                                                               | Solution                                                                            | Time   | Space | Difficulty | Note     |
+| ---- | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------ | ----- | ---------- | -------- |
+| 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)   | [js](https://github.com/orifake/leetcode-js/blob/master/7.Reverse%20Integer.js)     | O(n)   | O(1)  | Medium     |          |
+| 0013 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [js](https://github.com/orifake/leetcode-js/blob/master/13.Roman%20to%20Integer.js) | O(n)   | O(1)  | Easy       | Hash Map |
+| 0202 | [Happy Number](https://leetcode.com/problems/happy-number/)         | [js](https://github.com/orifake/leetcode-js/blob/master/202.Happy%20Number.js)      | O(n)   | O(1)  | Easy       | Hash Map |
+| 0258 | [Add Digits](https://leetcode.com/problems/add-digits/)             | [js](https://github.com/orifake/leetcode-js/blob/master/258.Add%20Digits.js)        | O(1)   | O(1)  | Easy       |          |
+| 0268 | [Missing Number](https://leetcode.com/problems/missing-number/)     | [js](https://github.com/orifake/leetcode-js/blob/master/268.Missing%20Number.js)    | O(n)   | O(1)  | Easy       |          |
+| 0441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/)   | [js](https://github.com/orifake/leetcode-js/blob/master/441.Arranging%20Coins.js)   | O(n)	) | O(1)  | Easy       |          |
+| 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/)         | [js](https://github.com/orifake/leetcode-js/blob/master/1025.Divisor%20Game.js)     | O(1)	) | O(1)  | Easy       |          |
 
 ## Sort
 | #   | Title | Solution | Time | Space | Difficulty | Note |
