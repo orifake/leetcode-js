@@ -186,7 +186,7 @@ Javascript solutions for Leetcode
 | 0299 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)                                                                 | [js](https://github.com/orifake/leetcode-js/blob/master/299.Bulls%20and%20Cows.js)                                     | O(n) | O(1)  | Medium     |                |
 | 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)                                         | [js](https://github.com/orifake/leetcode-js/blob/master/349.Intersection%20of%20Two%20Arrays.js)                       | O(n) | O(n)) | Easy       |                |
 | 0387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)                         | [js](https://github.com/orifake/leetcode-js/blob/master/387.First%20Unique%20Character%20in%20a%20String.js)           | O(n) | O(1)  | Easy       |                |
-| 0409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)                                                         | [js](https://github.com/orifake/leetcode-js/blob/master/409.sLongest%20Palindrome.js)                                   | O(n) | O(1)  | Easy       |                |
+| 0409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)                                                         | [js](https://github.com/orifake/leetcode-js/blob/master/409.Longest%20Palindrome.js)                                   | O(n) | O(1)  | Easy       |                |
 | 0575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies)                                                          | [js](https://github.com/orifake/leetcode-js/blob/master/575.Distribute%20Candies.js)                                   | O(n) | O(n)  | Easy       |                |
 
 ## Math
@@ -194,8 +194,8 @@ Javascript solutions for Leetcode
 | ---- | ----------------------------------------------------------------- | -------------------------------------------------------------------------------- | ------ | ----- | ---------- | ---- |
 | 0258 | [Add Digits](https://leetcode.com/problems/add-digits/)           | [js](https://github.com/orifake/leetcode-js/blob/master/258.Add%20Digits.js)     | O(1)   | O(1)  | Easy       |      |
 | 0268 | [Missing Number](https://leetcode.com/problems/missing-number/)   | [js](https://github.com/orifake/leetcode-js/blob/master/268.Missing%20Number.js) | O(n)   | O(1)  | Easy       |      |
-| 0441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | [js](https://github.com/orifake/leetcode-js/blob/master/Arranging%20Coins.js)    | O(n)	) | O(1)  | Easy       |      |
-| 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/)       | [js](https://github.com/orifake/leetcode-js/blob/master/Divisor%20Game.js)       | O(1)	) | O(1)  | Easy       |      |
+| 0441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | [js](https://github.com/orifake/leetcode-js/blob/master/441.Arranging%20Coins.js)    | O(n)	) | O(1)  | Easy       |      |
+| 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/)       | [js](https://github.com/orifake/leetcode-js/blob/master/1025.Divisor%20Game.js)       | O(1)	) | O(1)  | Easy       |      |
 
 ## Sort
 | #   | Title | Solution | Time | Space | Difficulty | Note |
