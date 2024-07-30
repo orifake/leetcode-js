@@ -3,17 +3,17 @@
  * @return {boolean}
  */
 
-var cal = function(n) {
-	var result = 0;
+const cal = function (n) {
+	let result = 0
 	while (n) {
-		result = result + (n % 10) * (n % 10);
-		n = ~~(n / 10);
+		result = result + (n % 10) * (n % 10)
+		n = parseInt(n / 10)
 	}
 	return result;
 };
 
-var isHappy = function(n) {
-	var map = {};
+const isHappy = function (n) {
+	let map = {};
 	while (n) {
 		if (n === 1) {
 			return true;
