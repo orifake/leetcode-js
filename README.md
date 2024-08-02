@@ -201,6 +201,7 @@ Javascript solutions for Leetcode
 | 0202 | [Happy Number](https://leetcode.com/problems/happy-number/)         | [js](https://github.com/orifake/leetcode-js/blob/master/202.Happy%20Number.js)      | O(n)   | O(1)  | Easy       | Hash Map |
 | 0223 | [Rectangle Area](https://leetcode.com/problems/rectangle-area/)     | [js](https://github.com/orifake/leetcode-js/blob/master/223.Rectangle%20Area.js)    | O(1)   | O(1)  | Medium     | Geometry |
 | 0258 | [Add Digits](https://leetcode.com/problems/add-digits/)             | [js](https://github.com/orifake/leetcode-js/blob/master/258.Add%20Digits.js)        | O(1)   | O(1)  | Easy       |          |
+| 0263 | [Ugly Number](https://leetcode.com/problems/ugly-number/)           | [js](https://github.com/orifake/leetcode-js/blob/master/263.Ugly%20Number.js)       | O(n)   | O(1)  | Easy       |          |
 | 0268 | [Missing Number](https://leetcode.com/problems/missing-number/)     | [js](https://github.com/orifake/leetcode-js/blob/master/268.Missing%20Number.js)    | O(n)   | O(1)  | Easy       |          |
 | 0292 | [Nim Game](https://leetcode.com/problems/nim-game/)                 | [js](https://github.com/orifake/leetcode-js/blob/master/292.Nim%20Game.js)          | O(1)   | O(1)  | Easy       |          |
 | 0441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/)   | [js](https://github.com/orifake/leetcode-js/blob/master/441.Arranging%20Coins.js)   | O(n)	) | O(1)  | Easy       |          |

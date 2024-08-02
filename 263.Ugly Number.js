@@ -2,12 +2,12 @@
  * @param {number} num
  * @return {boolean}
  */
-var isUgly = function(num) {
+const isUgly = function (num) {
 	if (num === 0) {
-		return false;
+		return false
 	}
-	var loop = [2, 3, 5];
-	for (var i = 0; i < 3; i++) {
+	let loop = [2, 3, 5];
+	for (let i = 0; i < 3; i++) {
 		while (num % loop[i] === 0) {
 			num = num / loop[i];
 		}
