@@ -2,10 +2,9 @@
  * @constructor
  * @param {number[]} nums
  */
-var NumArray = function(nums) {
-	var i;
+const NumArray = function (nums) {
 	this.sum = [0];
-	for (i = 0; i < nums.length; i++) {
+	for (let i = 0; i < nums.length; i++) {
 		this.sum[i + 1] = this.sum[i] + nums[i]
 	}
 };
@@ -15,7 +14,7 @@ var NumArray = function(nums) {
  * @param {number} j
  * @return {number}
  */
-NumArray.prototype.sumRange = function(i, j) {
+NumArray.prototype.sumRange = function (i, j) {
 	return this.sum[j + 1] - this.sum[i]
 };
 
