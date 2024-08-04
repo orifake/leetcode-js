@@ -301,8 +301,9 @@ Javascript solutions for Leetcode
 | --- | ----- | -------- | ---- | ----- | ---------- | ---- |
 
 ## Design
-| #   | Title | Solution | Time | Space | Difficulty | Note |
-| --- | ----- | -------- | ---- | ----- | ---------- | ---- |
+| #   | Title                                                                                       | Solution                                                                                           | Time | Space | Difficulty | Note |
+| --- | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ---- | ----- | ---------- | ---- |
+| 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [js](https://github.com/orifake/leetcode-js/blob/master/225.Implement%20Stack%20using%20Queues.js) | O(1) | O(1)  | Easy       |      |
 
 
 ## Concurrency
