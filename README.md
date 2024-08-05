@@ -263,9 +263,10 @@ Javascript solutions for Leetcode
 
 
 ## Backtracking
-| #    | Title                                             | Solution                                                               | Time | Space | Difficulty | Note |
-| ---- | ------------------------------------------------- | ---------------------------------------------------------------------- | ---- | ----- | ---------- | ---- |
-| 0078 | [Subsets](https://leetcode.com/problems/subsets/) | [js](https://github.com/orifake/leetcode-js/blob/master/78.Subsets.js) | O(n) | O(n)  | Medium     |      |
+| #    | Title                                                                                                        | Solution                                                                                                       | Time | Space | Difficulty | Note |
+| ---- | ------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------- | ---- | ----- | ---------- | ---- |
+| 0017 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | [js](https://github.com/orifake/leetcode-js/blob/master/17.Letter%20Combinations%20of%20a%20Phone%20Number.js) | O(n) | O(n)  | Medium     |      |
+| 0078 | [Subsets](https://leetcode.com/problems/subsets/)                                                            | [js](https://github.com/orifake/leetcode-js/blob/master/78.Subsets.js)                                         | O(n) | O(n)  | Medium     |      |
 
 ## Dynamic Programming
 | #    | Title                                                                                                   | Solution                                                                                                     | Time   | Space | Difficulty | Note |
