@@ -231,6 +231,7 @@ Javascript solutions for Leetcode
 | 0189 | [Rotate Array](https://leetcode.com/problems/rotate-array/)                                   | [js](https://github.com/orifake/leetcode-js/blob/master/189.Rotate%20Array.js)                        | O(n)     | O(1)  | Medium     |      |
 | 0350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [js](https://github.com/orifake/leetcode-js/blob/master/350.Intersection%20of%20Two%20Arrays%20II.js) | O(m + n) | O(1)  | Easy       |      |
 | 0392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence)                                | [js](https://github.com/orifake/leetcode-js/blob/master/392.Is%20Subsequence.js)                      | O(n)     | O(1)  | Easy       |      |
+| 0443 | [String Compression](https://leetcode.com/problems/string-compression)                        | [js](https://github.com/orifake/leetcode-js/blob/master/443.String%20Compression.js)                  | O(n)     | O(1)  | Medium     |      |
 
 ## Recursion
 | #   | Title | Solution | Time | Space | Difficulty | Note |
