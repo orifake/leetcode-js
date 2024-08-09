@@ -215,7 +215,7 @@ Javascript solutions for Leetcode
 | 0263 | [Ugly Number](https://leetcode.com/problems/ugly-number/)                             | [js](https://github.com/orifake/leetcode-js/blob/master/263.Ugly%20Number.js)                  | O(n)   | O(1)  | Easy       |          |
 | 0268 | [Missing Number](https://leetcode.com/problems/missing-number/)                       | [js](https://github.com/orifake/leetcode-js/blob/master/268.Missing%20Number.js)               | O(n)   | O(1)  | Easy       |          |
 | 0292 | [Nim Game](https://leetcode.com/problems/nim-game/)                                   | [js](https://github.com/orifake/leetcode-js/blob/master/292.Nim%20Game.js)                     | O(1)   | O(1)  | Easy       |          |
-| 0400 | [Nth Digit](https://leetcode.com/problems/nth-digit/)                                | [js](https://github.com/orifake/leetcode-js/blob/master/400.Nth%20Digit.js)                    | O(1)   | O(1)  | Medium     |          |
+| 0400 | [Nth Digit](https://leetcode.com/problems/nth-digit/)                                 | [js](https://github.com/orifake/leetcode-js/blob/master/400.Nth%20Digit.js)                    | O(1)   | O(1)  | Medium     |          |
 | 0441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/)                     | [js](https://github.com/orifake/leetcode-js/blob/master/441.Arranging%20Coins.js)              | O(n)	) | O(1)  | Easy       |          |
 | 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/)                           | [js](https://github.com/orifake/leetcode-js/blob/master/1025.Divisor%20Game.js)                | O(1)	) | O(1)  | Easy       |          |
 
@@ -224,19 +224,21 @@ Javascript solutions for Leetcode
 | --- | ----- | -------- | ---- | ----- | ---------- | ---- |
 
 ## Two Pointers
-| #    | Title                                                                                         | Solution                                                                                              | Time     | Space | Difficulty | Note |
-| ---- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | -------- | ----- | ---------- | ---- |
-| 0005 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [js](https://github.com/orifake/leetcode-js/blob/master/5.Longest%20Palindromic%20Substring.js)       | O(n)     | O(1)  | Easy       |      |
-| 0015 | [3Sum](https://leetcode.com/problems/3sum/)                                                   | [js](https://github.com/orifake/leetcode-js/blob/master/15.3Sum.js)                                   | O(n^2)   | O(1)  | Medium     |      |
-| 0016 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/)                                   | [js](https://github.com/orifake/leetcode-js/blob/master/16.3Sum%20Closest.js)                         | O(n^2)   | O(1)  | Medium     |      |
-| 0018 | [4Sum](https://leetcode.com/problems/4sum/)                                                   | [js](https://github.com/orifake/leetcode-js/blob/master/18.4Sum.js)                                   | O(n^2)   | O(1)  | Medium     |      |
-| 0031 | [Next Permutation](https://leetcode.com/problems/next-permutation/)                           | [js](https://github.com/orifake/leetcode-js/blob/master/31.Next%20Permutation.js)                     | O(n)     | O(1)  | Medium     |      |
-| 0075 | [Sort Colors](https://leetcode.com/problems/sort-colors/)                                     | [js](https://github.com/orifake/leetcode-js/blob/master/75.Sort%20Colors.js)                          | O(n)     | O(1)  | Medium     |      |
-| 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                           | [js](https://github.com/orifake/leetcode-js/blob/master/125.Valid%20Palindrome.js)                    | O(n)     | O(1)  | Easy       |      |
-| 0189 | [Rotate Array](https://leetcode.com/problems/rotate-array/)                                   | [js](https://github.com/orifake/leetcode-js/blob/master/189.Rotate%20Array.js)                        | O(n)     | O(1)  | Medium     |      |
-| 0350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [js](https://github.com/orifake/leetcode-js/blob/master/350.Intersection%20of%20Two%20Arrays%20II.js) | O(m + n) | O(1)  | Easy       |      |
-| 0392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence)                                | [js](https://github.com/orifake/leetcode-js/blob/master/392.Is%20Subsequence.js)                      | O(n)     | O(1)  | Easy       |      |
-| 0443 | [String Compression](https://leetcode.com/problems/string-compression)                        | [js](https://github.com/orifake/leetcode-js/blob/master/443.String%20Compression.js)                  | O(n)     | O(1)  | Medium     |      |
+| #              | Title                                                                                         | Solution                                                                                              | Time     | Space | Difficulty | Note |
+| -------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | -------- | ----- | ---------- | ---- |
+| 0005           | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [js](https://github.com/orifake/leetcode-js/blob/master/5.Longest%20Palindromic%20Substring.js)       | O(n)     | O(1)  | Easy       |      |
+| 0015           | [3Sum](https://leetcode.com/problems/3sum/)                                                   | [js](https://github.com/orifake/leetcode-js/blob/master/15.3Sum.js)                                   | O(n^2)   | O(1)  | Medium     |      |
+| 0016           | [3Sum Closest](https://leetcode.com/problems/3sum-closest/)                                   | [js](https://github.com/orifake/leetcode-js/blob/master/16.3Sum%20Closest.js)                         | O(n^2)   | O(1)  | Medium     |      |
+| 0018           | [4Sum](https://leetcode.com/problems/4sum/)                                                   | [js](https://github.com/orifake/leetcode-js/blob/master/18.4Sum.js)                                   | O(n^2)   | O(1)  | Medium     |      |
+| 0031           | [Next Permutation](https://leetcode.com/problems/next-permutation/)                           | [js](https://github.com/orifake/leetcode-js/blob/master/31.Next%20Permutation.js)                     | O(n)     | O(1)  | Medium     |      |
+| 0075           | [Sort Colors](https://leetcode.com/problems/sort-colors/)                                     | [js](https://github.com/orifake/leetcode-js/blob/master/75.Sort%20Colors.js)                          | O(n)     | O(1)  | Medium     |      |
+| 0125           | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                           | [js](https://github.com/orifake/leetcode-js/blob/master/125.Valid%20Palindrome.js)                    | O(n)     | O(1)  | Easy       |      |
+| 0189           | [Rotate Array](https://leetcode.com/problems/rotate-array/)                                   | [js](https://github.com/orifake/leetcode-js/blob/master/189.Rotate%20Array.js)                        | O(n)     | O(1)  | Medium     |      |
+| 0209           | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)         | [js](https://github.com/orifake/leetcode-js/blob/master/209.Minimum%20Size%20Subarray%20Sum.js)       | O(n^2)   | O(1)  | Medium     |
+| Sliding Window |
+| 0350           | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [js](https://github.com/orifake/leetcode-js/blob/master/350.Intersection%20of%20Two%20Arrays%20II.js) | O(m + n) | O(1)  | Easy       |      |
+| 0392           | [Is Subsequence](https://leetcode.com/problems/is-subsequence)                                | [js](https://github.com/orifake/leetcode-js/blob/master/392.Is%20Subsequence.js)                      | O(n)     | O(1)  | Easy       |      |
+| 0443           | [String Compression](https://leetcode.com/problems/string-compression)                        | [js](https://github.com/orifake/leetcode-js/blob/master/443.String%20Compression.js)                  | O(n)     | O(1)  | Medium     |      |
 
 ## Recursion
 | #   | Title | Solution | Time | Space | Difficulty | Note |
