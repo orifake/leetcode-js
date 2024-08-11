@@ -10,13 +10,13 @@
  * @return {ListNode}
  */
 const swapPairs = function (head) {
-    if (head === null || head.next === null) {
-        return head
-    }
-    let first = head
-    let second = head.next
-    let others = head.next.next
-    second.next = first
-    first.next = swapPairs(others)
-    return second
+	if (head === null || head.next === null) {
+		return head
+	}
+	let first = head
+	let second = head.next
+	let others = head.next.next
+	second.next = first
+	first.next = swapPairs(others)
+	return second
 }
