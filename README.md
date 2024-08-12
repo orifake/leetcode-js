@@ -297,6 +297,7 @@ Javascript solutions for Leetcode
 | 0077 | [Combinations](https://leetcode.com/problems/combinations)                                                   | [js](https://github.com/orifake/leetcode-js/blob/master/77.Combinations.js)                                    |      | O(n)  | Medium     |      |
 | 0078 | [Subsets](https://leetcode.com/problems/subsets/)                                                            | [js](https://github.com/orifake/leetcode-js/blob/master/78.Subsets.js)                                         |      | O(n)  | Medium     |      |
 | 0079 | [Word Search](https://leetcode.com/problems/word-search/)                                                    | [js](https://github.com/orifake/leetcode-js/blob/master/79.Word%20Search.js)                                   |      | O(n)  | Medium     |      |
+| 0090 | [Subsets II](https://leetcode.com/problems/subsets-ii/)                                                      | [js](https://github.com/orifake/leetcode-js/blob/master/90.Subsets%20II.js)                                    |      | O(n)  | Medium     |      |
 
 ## Dynamic Programming
 | #    | Title                                                                                                   | Solution                                                                                                     | Time   | Space | Difficulty | Note |
