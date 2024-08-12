@@ -293,6 +293,7 @@ Javascript solutions for Leetcode
 | 0040 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii)                                       | [js](https://github.com/orifake/leetcode-js/blob/master/39.Combination%20Sum%20II.js)                          | O(n!) | O(n)  | Medium     |      |
 | 0046 | [Permutations](https://leetcode.com/problems/permutations)                                                   | [js](https://github.com/orifake/leetcode-js/blob/master/46.Permutations.js)                                    | O(n!) | O(n)  | Medium     |      |
 | 0047 | [Permutations II](https://leetcode.com/problems/permutations-ii)                                             | [js](https://github.com/orifake/leetcode-js/blob/master/47.Permutations%20II.js)                               | O(n!) | O(n)  | Medium     |      |
+| 0077 | [Combinations](https://leetcode.com/problems/combinations)                                                   | [js](https://github.com/orifake/leetcode-js/blob/master/77.Combinations.js)                                    | O(n!) | O(n)  | Medium     |      |
 | 0078 | [Subsets](https://leetcode.com/problems/subsets/)                                                            | [js](https://github.com/orifake/leetcode-js/blob/master/78.Subsets.js)                                         | O(n!) | O(n)  | Medium     |      |
 
 ## Dynamic Programming
