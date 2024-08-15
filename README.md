@@ -17,7 +17,6 @@ Javascript solutions for Leetcode
 * [Sort](https://github.com/orifake/leetcode-js#sort)
 * [Recursion](https://github.com/orifake/leetcode-js#recursion)
 * [Binary Search](https://github.com/orifake/leetcode-js#binary-search)
-* [Binary Search Tree](https://github.com/orifake/leetcode-js#binary-search-tree)
 * [Breadth-First Search](https://github.com/orifake/leetcode-js#breadth-first-search)
 * [Depth-First Search](https://github.com/orifake/leetcode-js#depth-first-search)
 * [Backtracking](https://github.com/orifake/leetcode-js#backtracking)
@@ -182,6 +181,7 @@ Javascript solutions for Leetcode
 | 0117 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | [js](https://github.com/orifake/leetcode-js/blob/master/117.Populating%Next%20Right%20Pointers%20in%20Each%20Node%20.js) | O(n)         | O(h)       | Medium     | Depth-First Search   |
 | 0129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)                                             | [js](https://github.com/orifake/leetcode-js/blob/master/129.Sum%20Root%20to%20Leaf%20Numbers.js)                         | O(n)         | O(h)       | Medium     | Depth-First Search   |
 | 0145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)                               | [js](https://github.com/orifake/leetcode-js/blob/master/145.Binary%20Tree%20Postorder%20Traversal.js)                    | O(n)         | O(h)       | Easy       | Depth-First Search   |
+| 0173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)                                       | [js](https://github.com/orifake/leetcode-js/blob/master/145.Binary%20Search%20Tree%20Iterator.js)                        | O(n)         | O(h)       | Medium     | Binary Search Tree   |
 | 0222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)                                           | [js](https://github.com/orifake/leetcode-js/blob/master/222.Count%20Complete%20Tree%20Nodes.js)                          | O(logn*logn) | O(logn)    | Easy       |                      |
 | 0226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)                                                         | [js](https://github.com/orifake/leetcode-js/blob/master/226.Invert%20Binary%20Tree.js)                                   | O(n)         | O(h), O(w) | Easy       |                      |
 | 0257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)                                                           | [js](https://github.com/orifake/leetcode-js/257.blob/master/Binary%20Tree%20Paths.js)                                    | O(n*h)       | O(h)       | Easy       | Depth-First Search   |
@@ -278,10 +278,6 @@ Javascript solutions for Leetcode
 | 0475 | [Heaters](https://leetcode.com/problems/heaters/)                                                                                                 | [js](https://github.com/orifake/leetcode-js/blob/master/475.Heaters.js)                                                                  | O(nlogn) | O(1)  | Easy       |      |
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search/)                                                                                     | [js](https://github.com/orifake/leetcode-js/blob/master/704.Binary%20Search.js)                                                          | O(logn)  | O(1)  | Easy       |      |
 | 0744 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)                               | [js](https://github.com/orifake/leetcode-js/blob/master/744.Find%20Smallest%20Letter%20Greater%20Than%20Target.js)                       | O(logn)  | O(1)  | Easy       |      |
-
-## Binary Search Tree
-| #   | Title | Solution | Time | Space | Difficulty | Note |
-| --- | ----- | -------- | ---- | ----- | ---------- | ---- |
 
 
 ## Breadth-First Search
