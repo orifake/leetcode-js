@@ -308,6 +308,7 @@ Javascript solutions for Leetcode
 | 0079 | [Word Search](https://leetcode.com/problems/word-search/)                                                    | [js](https://github.com/orifake/leetcode-js/blob/master/79.Word%20Search.js)                                   |      | O(n)  | Medium     |      |
 | 0090 | [Subsets II](https://leetcode.com/problems/subsets-ii/)                                                      | [js](https://github.com/orifake/leetcode-js/blob/master/90.Subsets%20II.js)                                    |      | O(n)  | Medium     |      |
 | 0093 | [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)                                  | [js](https://github.com/orifake/leetcode-js/blob/master/93.Restore%20IP%20Addresses.js)                        |      | O(n)  | Medium     |      |
+| 0216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)                                    | [js](https://github.com/orifake/leetcode-js/blob/master/216.Combination%20Sum%%20III.js)                       |      | O(n)  | Medium     |      |
 
 
 ## Dynamic Programming
