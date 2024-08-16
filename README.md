@@ -345,12 +345,13 @@ Javascript solutions for Leetcode
 | --- | ----- | -------- | ---- | ----- | ---------- | ---- |
 
 ## Design
-| #    | Title                                                                                       | Solution                                                                                           | Time | Space | Difficulty | Note       |
-| ---- | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ---- | ----- | ---------- | ---------- |
-| 0146 | [LRU Cache](https://leetcode.com/problems/lru-cache/)                                       | [js](https://github.com/orifake/leetcode-js/blob/master/146.LRU%20Cache.js)                        | O(1) | O(1)  | Medium     |            |
-| 0208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree)    | [js](https://github.com/orifake/leetcode-js/blob/master/208.LRU%20Cache.js)                        | O(1) | O(1)  | Medium     | Hash Table |
-| 0225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [js](https://github.com/orifake/leetcode-js/blob/master/225.Implement%20Stack%20using%20Queues.js) | O(1) | O(1)  | Easy       |            |
-| 0233 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [js](https://github.com/orifake/leetcode-js/blob/master/233.Implement%20Queue%20using%20Stacks.js) | O(1) | O(1)  | Easy       |            |
+| #    | Title                                                                                                                   | Solution                                                                                                               | Time | Space | Difficulty | Note       |
+| ---- | ----------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---- | ----- | ---------- | ---------- |
+| 0146 | [LRU Cache](https://leetcode.com/problems/lru-cache/)                                                                   | [js](https://github.com/orifake/leetcode-js/blob/master/146.LRU%20Cache.js)                                            | O(1) | O(1)  | Medium     |            |
+| 0208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree)                                | [js](https://github.com/orifake/leetcode-js/blob/master/208.Implement%20Trie%20(Prefix%20Tree).js)                     | O(1) | O(1)  | Medium     | Hash Table |
+| 0211 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [js](https://github.com/orifake/leetcode-js/blob/master/208.Design%20Add%20and%20Search%20Words%20Data%20Structure.js) | O(1) | O(1)  | Medium     |            |
+| 0225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)                             | [js](https://github.com/orifake/leetcode-js/blob/master/225.Implement%20Stack%20using%20Queues.js)                     | O(1) | O(1)  | Easy       |            |
+| 0233 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)                             | [js](https://github.com/orifake/leetcode-js/blob/master/233.Implement%20Queue%20using%20Stacks.js)                     | O(1) | O(1)  | Easy       |            |
 
 
 ## Concurrency
