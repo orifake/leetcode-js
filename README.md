@@ -46,6 +46,7 @@ Javascript solutions for Leetcode
 | 0476 | [Number Complement](https://leetcode.com/problems/number-complement/)                             | [js](https://github.com/orifake/leetcode-js/blob/master/476.Number%20Complement.js)                     | O(1)   | O(1)  | Easy       |      |
 | 0504 | [Base 7](https://leetcode.com/problems/base-7/)                                                   | [js](https://github.com/orifake/leetcode-js/blob/master/504.Base%207.js)                                | O(1)   | O(1)  | Easy       |      |
 
+
 ## Array
 | #    | Title                                                                                                               | Solution                                                                                                             | Time     | Space   | Difficulty | Note                |
 | ---- | ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------- | ------- | ---------- | ------------------- |
@@ -64,6 +65,7 @@ Javascript solutions for Leetcode
 | 0169 | [Majority Element](https://leetcode.com/problems/majority-element/)                                                 | [js](https://github.com/orifake/leetcode-js/blob/master/169.Majority%20Element.js)                                   | O(n)     | O(1)    | Easy       |                     |
 | 0200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                               | [js](https://github.com/orifake/leetcode-js/blob/master/200.Number%20of%20Islands.js)                                | O(n!)    | O(1)    | Medium     |                     |
 | 0215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)                   | [js](https://github.com/orifake/leetcode-js/blob/master/215.NumKthber%20Largest%20Element%20in%20an%20Array.js)      | O(nlogk) | O(k)    | Medium     | Heap                |
+| 0228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/)                                                     | [js](https://github.com/orifake/leetcode-js/blob/master/228.Summary%20Ranges.js)                                     | O(n)     | O(1)    | Easy       |                     |
 | 0287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)                               | [js](https://github.com/orifake/leetcode-js/blob/master/287.Find%20the%20Duplicate%20Number.js)                      | O(n)     | O(1)    | Medium     | Two Pointers        |
 | 0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/)                                                           | [js](https://github.com/orifake/leetcode-js/blob/master/283.Move%20Zeroes.js)                                        | O(n)     | O(1)    | Easy       | Two Pointers        |
 | 0303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)                             | [js](https://github.com/orifake/leetcode-js/blob/master/303.Range%20Sum%20Query%20-%20Immutable.js)                  | O(n)     | O(1)    | Easy       |                     |
@@ -76,6 +78,7 @@ Javascript solutions for Leetcode
 | 0561 | [Array Partition](https://leetcode.com/problems/array-partition-i/)                                                 | [js](https://github.com/orifake/leetcode-js/blob/master/561.Array%20Partition.js)                                    | O(nlogn) | O(1)    | Easy       | Greedy              |
 | 0566 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)                                             | [js](https://github.com/orifake/leetcode-js/blob/master/566.Reshape%20the%20Matrix.js)                               | O(m\*n)  | O(m\*n) | Easy       |                     |
 | 0581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)       | [js](https://github.com/orifake/leetcode-js/blob/master/581.Shortest%20Unsorted%20Continuous%20Subarray.js)          | O(n)     | O(1)    | Medium     | Two Pointers        |
+
 
 ## String
 | #    | Title                                                                                           | Solution                                                                                                | Time         | Space  | Difficulty | Note         |
@@ -105,6 +108,7 @@ Javascript solutions for Leetcode
 |      |
 | 0557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)   | [js](https://github.com/orifake/leetcode-js/blob/master/557.Reverse%20Words%20in%20a%20String%20III.js) | O(n）        | O(n)   | Easy       |              |
 | 0796 | [Rotate String](https://leetcode.com/problems/rotate-strings/)                                  | [js](https://github.com/orifake/leetcode-js/blob/master/796.Rotate%20String.js)                         | O(n)         | O(1)   | Easy       |              |
+
 
 ## Linked List
 | #    | Title                                                                                                                                 | Solution                                                                                                                                      | Time     | Space   | Difficulty | Note         |
@@ -159,6 +163,7 @@ Javascript solutions for Leetcode
 | #   | Title | Solution | Time | Space | Difficulty | Note |
 | --- | ----- | -------- | ---- | ----- | ---------- | ---- |
 
+
 ## Binary Heap
 | #   | Title | Solution | Time | Space | Difficulty | Note |
 | --- | ----- | -------- | ---- | ----- | ---------- | ---- |
@@ -201,6 +206,7 @@ Javascript solutions for Leetcode
 | 0572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)                                               | [js](https://github.com/orifake/leetcode-js/blob/master/572.Subtree%20of%20Another%20Tree.js)                                 | O(m\*n)      | O(h)       | Easy       |                      |
 | 0589 | [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)                                   | [js](https://github.com/orifake/leetcode-js/blob/master/589.N-ary%20Tree%20Preorder%20Traversal.js)                           | O(n)         | O(n)       | Easy       |                      |
 | 0590 | [N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)                                 | [js](https://github.com/orifake/leetcode-js/blob/master/590.N-ary%20Tree%20Postorder%20Traversal.js)                          | O(n)         | O(n)       | Easy       |                      |
+
 ## Hash Table
 | #    | Title                                                                                                                           | Solution                                                                                                             | Time       | Space | Difficulty | Note           |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ---------- | ----- | ---------- | -------------- |
