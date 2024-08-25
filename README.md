@@ -372,6 +372,7 @@ Javascript solutions for Leetcode
 | 0233 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)                             | [js](https://github.com/orifake/leetcode-js/blob/master/233.Implement%20Queue%20using%20Stacks.js)                     | O(1) | O(1)  | Easy       |                     |
 | 0284 | [Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)                                                     | [js](https://github.com/orifake/leetcode-js/blob/master/284.Peeking%20Iterator.js)                                     | O(1) | O(1)  | Medium     |                     |
 | 0307 | [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)                                     | [js](https://github.com/orifake/leetcode-js/blob/master/307.Range%20Sum%20Query%20-%20Mutable.js)                      | O(1) | O(1)  | Medium     | Binary Indexed Tree |
+| 0341 | [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)                             | [js](https://github.com/orifake/leetcode-js/blob/master/341.Flatten%20Nested%20List%20Iterator.js)                     | O(1) | O(1)  | Medium     | Stack               |
 
 
 ## Concurrency
