@@ -376,6 +376,7 @@ Javascript solutions for Leetcode
 | 0307 | [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)                                     | [js](https://github.com/orifake/leetcode-js/blob/master/307.Range%20Sum%20Query%20-%20Mutable.js)                      | O(1) | O(1)  | Medium     | Binary Indexed Tree |
 | 0341 | [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)                             | [js](https://github.com/orifake/leetcode-js/blob/master/341.Flatten%20Nested%20List%20Iterator.js)                     | O(1) | O(1)  | Medium     | Stack               |
 | 0355 | [Design Twitter](https://leetcode.com/problems/design-twitter/)                                                         | [js](https://github.com/orifake/leetcode-js/blob/master/355.Design%20Twitter.js)                                       | O(1) | O(1)  | Medium     | Hash Table          |
+| 0384 | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)                                                     | [js](https://github.com/orifake/leetcode-js/blob/master/355.Shuffle%20an%20Array.js)                                   | O(1) | O(1)  | Medium     | Randomized          |
 | 0380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)                               | [js](https://github.com/orifake/leetcode-js/blob/master/380.Insert%20Delete%20GetRandom%20O(1).js)                     | O(1) | O(1)  | Medium     | Hash Table          |
 
 
