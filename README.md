@@ -308,9 +308,9 @@ Javascript solutions for Leetcode
 
 
 ## Depth-First Search
-| #   | Title | Solution | Time | Space | Difficulty | Note |
-| --- | ----- | -------- | ---- | ----- | ---------- | ---- |
-
+| #    | Title                                                                             | Solution                                                                                  | Time | Space | Difficulty | Note |
+| ---- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ---- | ----- | ---------- | ---- |
+| 0386 | [Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/) | [js](https://github.com/orifake/leetcode-js/blob/master/386.Lexicographical%20Numbers.js) | O(n) | O(1)  | Medium     |      |
 
 ## Backtracking
 | #    | Title                                                                                                        | Solution                                                                                                       | Time     | Space | Difficulty | Note |
