@@ -382,6 +382,7 @@ Javascript solutions for Leetcode
 | 0355 | [Design Twitter](https://leetcode.com/problems/design-twitter/)                                                         | [js](https://github.com/orifake/leetcode-js/blob/master/355.Design%20Twitter.js)                                       | O(1) | O(1)  | Medium     | Hash Table          |
 | 0384 | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)                                                     | [js](https://github.com/orifake/leetcode-js/blob/master/355.Shuffle%20an%20Array.js)                                   | O(1) | O(1)  | Medium     | Randomized          |
 | 0380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)                               | [js](https://github.com/orifake/leetcode-js/blob/master/380.Insert%20Delete%20GetRandom%20O(1).js)                     | O(1) | O(1)  | Medium     | Hash Table          |
+| 0398 | [Random Pick Index](https://leetcode.com/problems/random-pick-index/)                                                   | [js](https://github.com/orifake/leetcode-js/blob/master/398.Random%20Pick%20Index.js)                                  | O(n) | O(1)  | Medium     |                     |
 
 
 ## Concurrency
