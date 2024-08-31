@@ -360,7 +360,7 @@ Javascript solutions for Leetcode
 | 0322 | [Coin Change](https://leetcode.com/problems/coin-change/)                                               | [js](https://github.com/orifake/leetcode-js/blob/master/322.Coin%20Change.js)                                | O(n\*m) | O(n)  | Medium     |      |
 | 0509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)                                     | [js](https://github.com/orifake/leetcode-js/blob/master/509.Fibonacci%20Number.js)                           | O(n)    | O(1)  | Easy       |      |
 | 0746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)                     | [js](https://github.com/orifake/leetcode-js/blob/master/746.Min%20Cost%20Climbing%20Staris.js)               | O(n)    | O(1)  | Easy       |      |
-| 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)                         | [js](https://github.com/orifake/leetcode-js/blob/master/N-th%20Tribonacci%20Number.js)                       | O(n)    | O(1)  | Easy       |      |
+| 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)                         | [js](https://github.com/orifake/leetcode-js/blob/master/1137.N-th%20Tribonacci%20Number.js)                  | O(n)    | O(1)  | Easy       |      |
 
 ## Greedy
 
