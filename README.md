@@ -26,7 +26,6 @@ Javascript solutions for Leetcode
 - [Greedy](https://github.com/orifake/leetcode-js#greedy)
 - [Graph](https://github.com/orifake/leetcode-js#graph)
 - [Geometry](https://github.com/orifake/leetcode-js#geometry)
-- [Simulation](https://github.com/orifake/leetcode-js#simulation)
 - [Design](https://github.com/orifake/leetcode-js#design)
 - [Concurrency](https://github.com/orifake/leetcode-js#concurrency)
 
@@ -246,29 +245,30 @@ Javascript solutions for Leetcode
 
 ## Math
 
-| #    | Title                                                                                         | Solution                                                                                                         | Time   | Space | Difficulty | Note       |
-| ---- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ------ | ----- | ---------- | ---------- |
-| 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)                             | [js](https://github.com/orifake/leetcode-js/blob/master/7.Reverse%20Integer.js)                                  | O(n)   | O(1)  | Medium     |            |
-| 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/)                         | [js](https://github.com/orifake/leetcode-js/blob/master/9.Palindrome%20Number.js)                                | O(n)   | O(1)  | Easy       |            |
-| 0012 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/)                           | [js](https://github.com/orifake/leetcode-js/blob/master/12.Integer%20to%20Roman.js)                              | O(n)   | O(1)  | Medium     |            |
-| 0013 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)                           | [js](https://github.com/orifake/leetcode-js/blob/master/13.Roman%20to%20Integer.js)                              | O(n)   | O(1)  | Easy       | Hash Map   |
-| 0029 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)                     | [js](https://github.com/orifake/leetcode-js/blob/master/29.Divide%20Two%20Integer.js)                            | O(1)   | O(1)  | Medium     |            |
-| 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/)                                            | [js](<https://github.com/orifake/leetcode-js/blob/625aaab790a54243c8612babed401c17a35fe997/50.Pow(x%2C%20n).js>) | O(1)   | O(1)  | Medium     | Recursion  |
-| 0166 | [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) | [js](https://github.com/orifake/leetcode-js/blob/master/166.Fraction%20to%20Recurring%20Decimal.js)              | O(n)   | O(1)  | Medium     | Hash Table |
-| 0168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)           | [js](https://github.com/orifake/leetcode-js/blob/master/168.Excel%20Sheet%20Column%20Title.js)                   | O(n)   | O(1)  | Easy       |            |
-| 0171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)         | [js](https://github.com/orifake/leetcode-js/blob/master/171.Excel%20Sheet%20Column%20Number.js)                  | O(n)   | O(1)  | Easy       |            |
-| 0172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)         | [js](https://github.com/orifake/leetcode-js/blob/master/172.Factorial%20Trailing%20Zeroes.js)                    | O(1)   | O(1)  | Medium     |            |
-| 0202 | [Happy Number](https://leetcode.com/problems/happy-number/)                                   | [js](https://github.com/orifake/leetcode-js/blob/master/202.Happy%20Number.js)                                   | O(n)   | O(1)  | Easy       | Hash Map   |
-| 0204 | [Count Primes](https://leetcode.com/problems/count-primes/)                                   | [js](https://github.com/orifake/leetcode-js/blob/master/204.Count%20Primes.js)                                   | O(n^2) | O(n)  | Medium     |            |
-| 0223 | [Rectangle Area](https://leetcode.com/problems/rectangle-area/)                               | [js](https://github.com/orifake/leetcode-js/blob/master/223.Rectangle%20Area.js)                                 | O(1)   | O(1)  | Medium     | Geometry   |
-| 0258 | [Add Digits](https://leetcode.com/problems/add-digits/)                                       | [js](https://github.com/orifake/leetcode-js/blob/master/258.Add%20Digits.js)                                     | O(1)   | O(1)  | Easy       |            |
-| 0263 | [Ugly Number](https://leetcode.com/problems/ugly-number/)                                     | [js](https://github.com/orifake/leetcode-js/blob/master/263.Ugly%20Number.js)                                    | O(n)   | O(1)  | Easy       |            |
-| 0268 | [Missing Number](https://leetcode.com/problems/missing-number/)                               | [js](https://github.com/orifake/leetcode-js/blob/master/268.Missing%20Number.js)                                 | O(n)   | O(1)  | Easy       |            |
-| 0292 | [Nim Game](https://leetcode.com/problems/nim-game/)                                           | [js](https://github.com/orifake/leetcode-js/blob/master/292.Nim%20Game.js)                                       | O(1)   | O(1)  | Easy       |            |
-| 0372 | [Super Pow](https://leetcode.com/problems/super-pow/)                                         | [js](https://github.com/orifake/leetcode-js/blob/master/327.Super%20Pow.js)                                      | O(1)   | O(1)  | Medium     |            |
-| 0400 | [Nth Digit](https://leetcode.com/problems/nth-digit/)                                         | [js](https://github.com/orifake/leetcode-js/blob/master/400.Nth%20Digit.js)                                      | O(1)   | O(1)  | Medium     |            |
-| 0441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/)                             | [js](https://github.com/orifake/leetcode-js/blob/master/441.Arranging%20Coins.js)                                | O(n) ) | O(1)  | Easy       |            |
-| 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/)                                   | [js](https://github.com/orifake/leetcode-js/blob/master/1025.Divisor%20Game.js)                                  | O(1) ) | O(1)  | Easy       |            |
+| #    | Title                                                                                         | Solution                                                                                                         | Time   | Space  | Difficulty | Note       |
+| ---- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ------ | ------ | ---------- | ---------- |
+| 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)                             | [js](https://github.com/orifake/leetcode-js/blob/master/7.Reverse%20Integer.js)                                  | O(n)   | O(1)   | Medium     |            |
+| 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/)                         | [js](https://github.com/orifake/leetcode-js/blob/master/9.Palindrome%20Number.js)                                | O(n)   | O(1)   | Easy       |            |
+| 0012 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/)                           | [js](https://github.com/orifake/leetcode-js/blob/master/12.Integer%20to%20Roman.js)                              | O(n)   | O(1)   | Medium     |            |
+| 0013 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)                           | [js](https://github.com/orifake/leetcode-js/blob/master/13.Roman%20to%20Integer.js)                              | O(n)   | O(1)   | Easy       | Hash Map   |
+| 0029 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)                     | [js](https://github.com/orifake/leetcode-js/blob/master/29.Divide%20Two%20Integer.js)                            | O(1)   | O(1)   | Medium     |            |
+| 0043 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/)                           | [js](https://github.com/orifake/leetcode-js/blob/master/43.Multiply%20Strings.js)                                | O(m*n) | O(m+n) | Medium     | Simulation |
+| 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/)                                            | [js](<https://github.com/orifake/leetcode-js/blob/625aaab790a54243c8612babed401c17a35fe997/50.Pow(x%2C%20n).js>) | O(1)   | O(1)   | Medium     | Recursion  |
+| 0166 | [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) | [js](https://github.com/orifake/leetcode-js/blob/master/166.Fraction%20to%20Recurring%20Decimal.js)              | O(n)   | O(1)   | Medium     | Hash Table |
+| 0168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)           | [js](https://github.com/orifake/leetcode-js/blob/master/168.Excel%20Sheet%20Column%20Title.js)                   | O(n)   | O(1)   | Easy       |            |
+| 0171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)         | [js](https://github.com/orifake/leetcode-js/blob/master/171.Excel%20Sheet%20Column%20Number.js)                  | O(n)   | O(1)   | Easy       |            |
+| 0172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)         | [js](https://github.com/orifake/leetcode-js/blob/master/172.Factorial%20Trailing%20Zeroes.js)                    | O(1)   | O(1)   | Medium     |            |
+| 0202 | [Happy Number](https://leetcode.com/problems/happy-number/)                                   | [js](https://github.com/orifake/leetcode-js/blob/master/202.Happy%20Number.js)                                   | O(n)   | O(1)   | Easy       | Hash Map   |
+| 0204 | [Count Primes](https://leetcode.com/problems/count-primes/)                                   | [js](https://github.com/orifake/leetcode-js/blob/master/204.Count%20Primes.js)                                   | O(n^2) | O(n)   | Medium     |            |
+| 0223 | [Rectangle Area](https://leetcode.com/problems/rectangle-area/)                               | [js](https://github.com/orifake/leetcode-js/blob/master/223.Rectangle%20Area.js)                                 | O(1)   | O(1)   | Medium     | Geometry   |
+| 0258 | [Add Digits](https://leetcode.com/problems/add-digits/)                                       | [js](https://github.com/orifake/leetcode-js/blob/master/258.Add%20Digits.js)                                     | O(1)   | O(1)   | Easy       |            |
+| 0263 | [Ugly Number](https://leetcode.com/problems/ugly-number/)                                     | [js](https://github.com/orifake/leetcode-js/blob/master/263.Ugly%20Number.js)                                    | O(n)   | O(1)   | Easy       |            |
+| 0268 | [Missing Number](https://leetcode.com/problems/missing-number/)                               | [js](https://github.com/orifake/leetcode-js/blob/master/268.Missing%20Number.js)                                 | O(n)   | O(1)   | Easy       |            |
+| 0292 | [Nim Game](https://leetcode.com/problems/nim-game/)                                           | [js](https://github.com/orifake/leetcode-js/blob/master/292.Nim%20Game.js)                                       | O(1)   | O(1)   | Easy       |            |
+| 0372 | [Super Pow](https://leetcode.com/problems/super-pow/)                                         | [js](https://github.com/orifake/leetcode-js/blob/master/327.Super%20Pow.js)                                      | O(1)   | O(1)   | Medium     |            |
+| 0400 | [Nth Digit](https://leetcode.com/problems/nth-digit/)                                         | [js](https://github.com/orifake/leetcode-js/blob/master/400.Nth%20Digit.js)                                      | O(1)   | O(1)   | Medium     |            |
+| 0441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/)                             | [js](https://github.com/orifake/leetcode-js/blob/master/441.Arranging%20Coins.js)                                | O(n) ) | O(1)   | Easy       |            |
+| 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/)                                   | [js](https://github.com/orifake/leetcode-js/blob/master/1025.Divisor%20Game.js)                                  | O(1) ) | O(1)   | Easy       |            |
 
 ## Sort
 
@@ -380,10 +380,6 @@ Javascript solutions for Leetcode
 | #   | Title | Solution | Time | Space | Difficulty | Note |
 | --- | ----- | -------- | ---- | ----- | ---------- | ---- |
 
-## Simulation
-
-| #   | Title | Solution | Time | Space | Difficulty | Note |
-| --- | ----- | -------- | ---- | ----- | ---------- | ---- |
 
 ## Design
 
