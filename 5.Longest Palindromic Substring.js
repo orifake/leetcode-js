@@ -17,7 +17,7 @@ const longestPalindrome = function (s) {
 
 const palindrome = function (s, l, r) {
   // 防止索引越界
-  while (l >= 0 && r < s.length && s.charAt(l) == s.charAt(r)) {
+  while (l >= 0 && r < s.length && s.charAt(l) === s.charAt(r)) {
     // 向两边展开
     l--;
     r++;
