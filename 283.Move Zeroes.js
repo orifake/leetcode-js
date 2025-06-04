@@ -3,7 +3,8 @@
  * @return {void} Do not return anything, modify nums in-place instead.
  */
 const moveZeroes = function (nums) {
-	for (let p = removeElement(nums, 0); p < nums.length; p++) {
+	const nonZeroCount = removeElement(nums, 0)
+	for (let p = nonZeroCount; p < nums.length; p++) {
 		nums[p] = 0;
 	}
 };
@@ -20,3 +21,7 @@ const removeElement = function (nums, val) {
 	}
 	return slow
 }
+
+const nums = [0, 1, 0, 3, 12]
+moveZeroes(nums)
+console.log(nums) // Output: [1, 3, 12, 0, 0]
