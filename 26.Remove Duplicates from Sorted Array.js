@@ -17,6 +17,9 @@ const removeDuplicates = function (nums) {
       nums[slow] = nums[fast]
     }
     fast++
+    console.log(nums)
   }
   return slow + 1;
 };
+
+console.log(removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4])) // Output: 5
