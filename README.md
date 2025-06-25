@@ -372,7 +372,7 @@ Javascript solutions for Leetcode
 
 | #    | Title                                                           | Solution                                                                         | Time     | Space | Difficulty | Note |
 | ---- | --------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------- | ----- | ---------- | ---- |
-| 0045 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/)     | [js](https://github.com/orifake/leetcode-js/blob/master/Jump%20Game%20II.js)     | O(n)     | O(1)  | Medium     |      |
+| 0045 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/)     | [js](https://github.com/orifake/leetcode-js/blob/master/45.Jump%20Game%20II.js)     | O(n)     | O(1)  | Medium     |      |
 | 0055 | [Jump Game](https://leetcode.com/problems/jump-game/)           | [js](https://github.com/orifake/leetcode-js/blob/master/55.Jump%20Game.js)          | O(n)     | O(1)  | Medium     |      |
 | 0179 | [Largest Number](https://leetcode.com/problems/largest-number/) | [js](https://github.com/orifake/leetcode-js/blob/master/179.largest%20number.js) | O(nlogn) | O(n)  | Medium     |      |
 
